@@ -24,6 +24,20 @@
 			<key>BinaryPath</key>
 			<string>SplineRuntime.framework/SplineRuntime</string>
 			<key>LibraryIdentifier</key>
+			<string>ios-arm64</string>
+			<key>LibraryPath</key>
+			<string>SplineRuntime.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>SplineRuntime.framework/SplineRuntime</string>
+			<key>LibraryIdentifier</key>
 			<string>ios-arm64-simulator</string>
 			<key>LibraryPath</key>
 			<string>SplineRuntime.framework</string>
@@ -35,20 +49,6 @@
 			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
 			<string>simulator</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>SplineRuntime.framework/SplineRuntime</string>
-			<key>LibraryIdentifier</key>
-			<string>ios-arm64</string>
-			<key>LibraryPath</key>
-			<string>SplineRuntime.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>ios</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>
