@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		/HEeP9BcvqHB4weEgwEwGVMUbJw=
+		6nOCoiW47EqwRoSWpchRpwlxpvI=
 		</data>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<data>
-		tP1sHhtT7++Xplc5/HVlB69flYs=
+		FbY7/AfC4QuKHp+bYQWt8U1vwog=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7IC7ldrhCt/umUTpSM63kKymQVA=
+		3lCuJBQwMIRxjxUTxjtmdYmy+Oo=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mTnHwAIluy2Do+IYCK1MYDbIoE0=
+		CAsJVX/rQqV6BX86qqcstB69eYM=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hUUthmriqYZJTyrN1EIMZ3Dyom4=
+		XY7gT8JJ8AjAq35Og1zKB/4u0r0=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mTnHwAIluy2Do+IYCK1MYDbIoE0=
+		CAsJVX/rQqV6BX86qqcstB69eYM=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qXzg5uutN9JN7X5R/fwkqsI7hlI=
+		qgXzknxRHsJH1z9hmzUO4SYCDBs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		2qtlzwB5YAlFwwLUbghT9FAOKXg=
+		186TltKwxxqSMoQH8/+QXFSwDlE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C3oADwMDqjRBKM0JZQoEFZwzH1K78Dm1GAqzfHeBkdQ=
+			FEvzgVty8VZys6BKtr1z+jJQhqOjN/xOu5toO1WMFSc=
 			</data>
 		</dict>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lSbw3WzUXivvgT2cX9Xu9Ef2S6nkd2/VyZIiY4XGH+Q=
+			uG8D48SjO1FRJUi97ER0beyD2dPbfP2vY/NA6OdlY3s=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -76,28 +76,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZKTwYAe70gWpaTScH0QLggJdkinZHIGo/eLEvLfyPl8=
+			n7hwxj+lm93viaISFHnxe+3oj7GbC774R+HfJUazPZg=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WM5Q/Po0rYVqdc4V5IYS0Mkk5zmySk/OZ6NJ7wLRGAA=
+			lbnLc0jdxoCW13WM5v4XVbqN4NfSrO1RPr7eCdtiaCQ=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZKTwYAe70gWpaTScH0QLggJdkinZHIGo/eLEvLfyPl8=
+			n7hwxj+lm93viaISFHnxe+3oj7GbC774R+HfJUazPZg=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fohLYIAVWZluKIv5E4kIMtzsFnmMo02gjfrRf+w3uSw=
+			aadK3Zex6bhUpEQH4UJXpYf5xKqRb68oGFfbE9Znlvo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R8KA0SyzgfxxZLFnTeuwjmkSQksmlluvZDduHTMQR5E=
+			RkC/L1vvvruam7W5D4ArUVE2Pw0JSJIrdQKKDrEgv0Y=
 			</data>
 		</dict>
 	</dict>
