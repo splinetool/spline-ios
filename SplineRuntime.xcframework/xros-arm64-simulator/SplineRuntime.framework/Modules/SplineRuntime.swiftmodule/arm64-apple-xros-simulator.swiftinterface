@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-xros1.0-simulator -enable-objc-interop -cxx-interoperability-mode=default -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SplineRuntime
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import Metal
+import MetalKit
+import Network
+import RealityKit
+@_exported import SplineRuntime
+import Swift
+import SwiftUI
+import UIKit
+import _CompositorServices_SwiftUI
+import _Concurrency
+import _RealityKit_SwiftUI
+import _StringProcessing
+import _SwiftConcurrencyShims
+import simd
+public struct SplineVolumetricContent : SwiftUI.View {
+  public init(sceneFileURL: Foundation.URL?)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13SplineRuntime0A17VolumetricContentV4bodyQrvp", 0) __
+}
+@available(iOS 16.0, macCatalyst 16.0, *)
+public struct SplineView : SwiftUI.View {
+  public init(sceneFileURL: Foundation.URL) throws
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13SplineRuntime0A4ViewV4bodyQrvp", 0) __
+}
+public enum AppError : Swift.Error {
+  case unsupportedDevice
+  public static func == (a: SplineRuntime.AppError, b: SplineRuntime.AppError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct SplineImmersiveSpaceContent : SwiftUI.ImmersiveSpaceContent {
+  public init(sceneFileURL: Foundation.URL)
+  public var body: _CompositorServices_SwiftUI.CompositorLayer {
+    get
+  }
+  public typealias Body = _CompositorServices_SwiftUI.CompositorLayer
+}
+extension SplineRuntime.AppError : Swift.Equatable {}
+extension SplineRuntime.AppError : Swift.Hashable {}

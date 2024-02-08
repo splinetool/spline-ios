@@ -1,0 +1,11 @@
+framework module SplineRuntime {
+  umbrella header "SplineRuntime.h"
+  export *
+
+  module * { export * }
+}
+
+module SplineRuntime.Swift {
+  header "SplineRuntime-Swift.h"
+  requires objc
+}

@@ -1,9 +1,9 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "SplineRuntime",
-    platforms: [.iOS("16.0"), .macCatalyst("16.0")],
+    platforms: [.iOS("16.0"), .macCatalyst("16.0"), .visionOS("1.0")],
     products: [
         .library(
             name: "SplineRuntime",
