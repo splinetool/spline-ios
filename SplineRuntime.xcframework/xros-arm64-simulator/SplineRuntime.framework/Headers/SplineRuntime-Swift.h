@@ -5342,6 +5342,9 @@ namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") 
 
 
 
+
+
+
 class SWIFT_SYMBOL("s:13SplineRuntime0A21ImmersiveSpaceContentV") SplineImmersiveSpaceContent;
 } // end namespace 
 

@@ -10,6 +10,7 @@ import Metal
 import MetalKit
 import Network
 import RealityKit
+import Spatial
 @_exported import SplineRuntime
 import Swift
 import SwiftUI

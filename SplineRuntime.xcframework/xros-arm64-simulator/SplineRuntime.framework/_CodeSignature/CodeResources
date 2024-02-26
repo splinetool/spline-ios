@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<data>
-		yGFC08w8Sh/3Ym6MlUbz2+9QWLQ=
+		f23p+pInw8A4LGbqFbDE1bdGnHc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iNj8p5ZnjVoFCt5omtdYHK50qYI=
+		q0TAE96sGMzqYJJNjgWqa//Np/M=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		q4KlnkIfe/BKBwXqZpy2rKICBrE=
+		JpigoZxCpFrcLIExzs2YRZn8oug=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		q4KlnkIfe/BKBwXqZpy2rKICBrE=
+		JpigoZxCpFrcLIExzs2YRZn8oug=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		fiC95On9o1muM5jF6sP5k/azHbU=
+		0xnAL+33YO8l9T+y5Hjo8zVrE+g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mKesmD4jN/YvjM2+OMNH+/vW3QWT6piAf9lHPJPghNg=
+			6fyBKridYHKaTQyelM54sqzaR3q/8CGaBwbHRVtZGfY=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8eN4kwkq3LMMNU1StzrosHWjyupHti/ppEITweLH16k=
+			8unqhffWTLTNTIw3OSqmoZ6+v0IlELwWqhvG1vxiCMA=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
@@ -90,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8eN4kwkq3LMMNU1StzrosHWjyupHti/ppEITweLH16k=
+			8unqhffWTLTNTIw3OSqmoZ6+v0IlELwWqhvG1vxiCMA=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LxS7HCfQYxmR0XP8nqiRnzK0Lt/7UJd/YZ/KqhLWPd4=
+			YxkdWp9W53zgs9V24+mU+yPgXwP1cA4wTJqSC3odc/c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
