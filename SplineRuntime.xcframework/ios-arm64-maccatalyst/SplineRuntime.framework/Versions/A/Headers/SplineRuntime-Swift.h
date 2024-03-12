@@ -313,6 +313,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -5498,6 +5499,7 @@ struct SWIFT_AVAILABILITY(maccatalyst,introduced=16.0) SWIFT_AVAILABILITY(ios,in
 } // namespace swift
 
 namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
+
 
 
 

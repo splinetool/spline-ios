@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<data>
-		jUHgrg1Td971xGYuE3+8k7mRu5M=
+		HjcACK16UVtesxOHaHnDryAHKzA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yL7D678G6X6JRnjRR5q5m7QT4us=
+		qqNuGGlQ1ybRTXzebjAiba3Gt6w=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Xm5MD9NxzfhhmaPm6xa3HmyPsG0=
+		9WN/VDysGfPOIXik2fm7hk1oGD4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9AV8fS3pllp+CbETntHjXiGsh3+Tm2h1i1i0c5K0qg4=
+			hO5QKP4HAa6d9mksGLYfRFRBlRVkkvc1wt5bKX6vi3k=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KzSbIMQVZBHgesG2O1arvT63gZHNGJAAajsii5kKNi4=
+			P35NG763FTGCQbmwsPo6dmrfMe82lQo9nThklwEh/uU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
