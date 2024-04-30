@@ -10,6 +10,7 @@ import Foundation
 import Metal
 import MetalKit
 import Network
+import QuartzCore
 @_exported import SplineRuntime
 import Swift
 import SwiftUI

@@ -307,6 +307,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -5351,6 +5353,25 @@ namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class SWIFT_SYMBOL("s:13SplineRuntime0A21ImmersiveSpaceContentV") SplineImmersiveSpaceContent;
 } // end namespace 
 
@@ -5767,6 +5788,7 @@ struct implClassFor<SplineRuntime::SplineVolumetricContent> { using type = Splin
 } // namespace swift
 
 namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
+
 
 
 

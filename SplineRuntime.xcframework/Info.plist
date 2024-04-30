@@ -8,22 +8,6 @@
 			<key>BinaryPath</key>
 			<string>SplineRuntime.framework/SplineRuntime</string>
 			<key>LibraryIdentifier</key>
-			<string>xros-arm64-simulator</string>
-			<key>LibraryPath</key>
-			<string>SplineRuntime.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>xros</string>
-			<key>SupportedPlatformVariant</key>
-			<string>simulator</string>
-		</dict>
-		<dict>
-			<key>BinaryPath</key>
-			<string>SplineRuntime.framework/SplineRuntime</string>
-			<key>LibraryIdentifier</key>
 			<string>xros-arm64</string>
 			<key>LibraryPath</key>
 			<string>SplineRuntime.framework</string>
@@ -36,9 +20,9 @@
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
-			<string>SplineRuntime.framework/Versions/A/SplineRuntime</string>
+			<string>SplineRuntime.framework/SplineRuntime</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64-maccatalyst</string>
+			<string>ios-arm64</string>
 			<key>LibraryPath</key>
 			<string>SplineRuntime.framework</string>
 			<key>SupportedArchitectures</key>
@@ -47,8 +31,6 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>
-			<key>SupportedPlatformVariant</key>
-			<string>maccatalyst</string>
 		</dict>
 		<dict>
 			<key>BinaryPath</key>
@@ -70,7 +52,23 @@
 			<key>BinaryPath</key>
 			<string>SplineRuntime.framework/SplineRuntime</string>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64</string>
+			<string>xros-arm64-simulator</string>
+			<key>LibraryPath</key>
+			<string>SplineRuntime.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>xros</string>
+			<key>SupportedPlatformVariant</key>
+			<string>simulator</string>
+		</dict>
+		<dict>
+			<key>BinaryPath</key>
+			<string>SplineRuntime.framework/Versions/A/SplineRuntime</string>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64-maccatalyst</string>
 			<key>LibraryPath</key>
 			<string>SplineRuntime.framework</string>
 			<key>SupportedArchitectures</key>
@@ -79,6 +77,8 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>
+			<key>SupportedPlatformVariant</key>
+			<string>maccatalyst</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>

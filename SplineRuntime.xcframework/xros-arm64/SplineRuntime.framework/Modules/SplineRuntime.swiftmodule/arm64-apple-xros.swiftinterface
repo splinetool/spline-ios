@@ -9,6 +9,7 @@ import Foundation
 import Metal
 import MetalKit
 import Network
+import QuartzCore
 import RealityKit
 import Spatial
 @_exported import SplineRuntime

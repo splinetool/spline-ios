@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<data>
-		HjcACK16UVtesxOHaHnDryAHKzA=
+		gQ6beR/8dkYfXgMXBPiPhKLnVmw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DSm1UHiPSRT/CrE0YlUZJCH41XI=
+		d13jhZHDvGEZg5HSjiinSvmFb0g=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		IdQRdVK1NHk3d3MeZsp4NOtHbNY=
+		HHlQpZCkxAkLBdBQwhcUCKKK2nc=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		IdQRdVK1NHk3d3MeZsp4NOtHbNY=
+		HHlQpZCkxAkLBdBQwhcUCKKK2nc=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Twe92v9Bj1afx+adrCigCpiYO5s=
+		rNI+Ab1GWvrJw7HX7L2aVuACArE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		cUKDRHPM1fEW8r6ch+As9FZlpm8=
+		pXUfD8gnkh/BrJ4kOTMVC4K/Eds=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hO5QKP4HAa6d9mksGLYfRFRBlRVkkvc1wt5bKX6vi3k=
+			trPGzqUL7pWjqWUIj1FSTUxuJchNiy9W1j8t+SHVFn0=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XMrZgWm7r5sx9Gq7+z/kNi0kvN2AubA5/hMtEdvSOSw=
+			DyP3vLsfkUIBK9JkUfqjmp4319NWmAA32+/K+HTj6x8=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -90,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XMrZgWm7r5sx9Gq7+z/kNi0kvN2AubA5/hMtEdvSOSw=
+			DyP3vLsfkUIBK9JkUfqjmp4319NWmAA32+/K+HTj6x8=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/vYqQA1aYVhqkLfD6/FvhugeNu3q3QMOyI2ZEKuYlv4=
+			Vxyu65QclfcKbOoxKrjX8n7FKKorMOL1ZmtfeyqD3zo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R/nwVfpcHjB/wEZTdfdjDv90g7O3HwqNI7WGSXHaaD4=
+			x59RPtu5agzEpa5Prh8Pa+dRxIQiHBm8siKPpSE5l4o=
 			</data>
 		</dict>
 	</dict>

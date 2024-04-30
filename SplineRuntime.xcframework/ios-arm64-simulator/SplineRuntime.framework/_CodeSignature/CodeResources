@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<data>
-		HjcACK16UVtesxOHaHnDryAHKzA=
+		gQ6beR/8dkYfXgMXBPiPhKLnVmw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3E79+wweHZQOrUG5jZDglzEdzpI=
+		Ul+b5NAMp3ll8hZm1XbkW9hst7Y=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		x6O9kIwBkYizC2zarvV7TgslQ2k=
+		9S8H8gbGKK/qtQXLAN5aLcqHJ4w=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		x6O9kIwBkYizC2zarvV7TgslQ2k=
+		9S8H8gbGKK/qtQXLAN5aLcqHJ4w=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KZNB1SYG2rqGqLahNRH/dU9kBGI=
+		L3tG1e3URnKc+OX7RYBxM6iBMNA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		OtyspOIz1mCtBTW7QNqI0w5498c=
+		Z6vegfXTZ2fj8jX6oREBRwJF0ZA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hO5QKP4HAa6d9mksGLYfRFRBlRVkkvc1wt5bKX6vi3k=
+			trPGzqUL7pWjqWUIj1FSTUxuJchNiy9W1j8t+SHVFn0=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			02wOdDTa5Q8vZH/DXSvtysLev+BVlLMU74tALOOzU+g=
+			9LwtK+6UqZumVRPGvT8L35LIdQO0v4lMZf9+xb5o1Dc=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -90,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			02wOdDTa5Q8vZH/DXSvtysLev+BVlLMU74tALOOzU+g=
+			9LwtK+6UqZumVRPGvT8L35LIdQO0v4lMZf9+xb5o1Dc=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y43OaaY2pp6qzmp486MZKLZ3NrVMg9VRDS+HIi4I5uM=
+			v0D8w6s6V6sfiVvbJDgEu0Vut+6jt+iltlrIryQNbhw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fKT4/9zrx99UH2tCT2Q9obe5kNn9ICmvZ35VVHECr/g=
+			uFjBfh/odxIub1b3iIA1ZQowsEsEXKCn5IdbuYZxS10=
 			</data>
 		</dict>
 	</dict>

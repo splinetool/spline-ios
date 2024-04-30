@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<data>
-		Rl7lSWBb0FwuKRvXwPBi89AoLLY=
+		Tkc4jBZOWL/8aJ+UIOjgKjBnGgM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7VDSLb88l6/3VMT09WeozD5obnE=
+		UMYWwZr4L0VKoEoHPhfwwWxVeC8=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.abi.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<data>
-		P6NHMoIlkDBYis+EgqYJMRES7I0=
+		DpE9OEJVCff3omiPDLwrD7C+6kM=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<data>
-		P6NHMoIlkDBYis+EgqYJMRES7I0=
+		DpE9OEJVCff3omiPDLwrD7C+6kM=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<data>
-		B0nXX7RwTNXQ9Cb2t25U3WzedNk=
+		+AcplM4dnscm1bWqov15TeJxqaw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		IYorLF+KJNeTeNCnZaciUDfshmU=
+		GvQVyAAisYwleorTjgF2hOIQ8Fs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FcJPyzTy5eDicqm34a8DMn/UzIgpUHmeFf8c92QPlqM=
+			1G8XwNFvoo+SHus/485+xrI2cHm/IslIlWgIbf+MyhE=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.abi.json</key>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nAhAZAmL2Yumwn++sbi0IVOh9CELebIesA9dMRFHmsA=
+			PWg+KvajXXaXfuz3Ho2yirx4nrsAaljPn27pyZVXMMg=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftdoc</key>
@@ -90,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nAhAZAmL2Yumwn++sbi0IVOh9CELebIesA9dMRFHmsA=
+			PWg+KvajXXaXfuz3Ho2yirx4nrsAaljPn27pyZVXMMg=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fzIyWJAmA6G7WskrUE/TIdmPjpnu5cHfdLWQnETGDKA=
+			aJhauIxAc9LKE/nTY/tVE2Stny54FFvGPGAqSrm612M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E1Ti8meoLhcQdeaKt86MnrN7YrFLNju1H68L0uM8aMg=
+			vXzeWqig7+/K8SMi5UTvL8xsCfGuw0vrFAT/q7HtLpk=
 			</data>
 		</dict>
 	</dict>

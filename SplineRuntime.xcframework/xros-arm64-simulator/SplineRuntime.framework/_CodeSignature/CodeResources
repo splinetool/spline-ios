@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<data>
-		Rl7lSWBb0FwuKRvXwPBi89AoLLY=
+		Tkc4jBZOWL/8aJ+UIOjgKjBnGgM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/GQZNPimYAjr6a68odHhOPUdsuo=
+		X46etoIZKNqPa+zCktulPXpfjmI=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		wdj7PRtC5FUnr47aRf9ynjar89Y=
+		kQwiwgYxbiCqJX7Lk2U8wLKJwpI=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		wdj7PRtC5FUnr47aRf9ynjar89Y=
+		kQwiwgYxbiCqJX7Lk2U8wLKJwpI=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		dFLfRpYN7O3IH/n1OXhXZVpO97g=
+		cugZ6rb7h4lI+10YfXWMIbGOMsQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>default.metallib</key>
 		<data>
-		0pyDLkcJMwlXYogRjdv3Ip52MNQ=
+		fLepsGtU9m+zSbymLHdQFnkUbu0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FcJPyzTy5eDicqm34a8DMn/UzIgpUHmeFf8c92QPlqM=
+			1G8XwNFvoo+SHus/485+xrI2cHm/IslIlWgIbf+MyhE=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eFRheQHRcTFD7M83xsbwdNOEzTLO0fC95iIn3ihvoxM=
+			Bt9w9ZszwL7PawFMdfwbmeuSByaU6BYHIUAXsL/PA24=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
@@ -90,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eFRheQHRcTFD7M83xsbwdNOEzTLO0fC95iIn3ihvoxM=
+			Bt9w9ZszwL7PawFMdfwbmeuSByaU6BYHIUAXsL/PA24=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bxeXns7EEa29TZ5nvbGXL5kbzkAEaWcCVAtrTEe0B94=
+			+UjIa4swIM4SbQmnTpC68ho7c/YmmwaOtd8MIiA/4ls=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g9LBQHN7TBMR7n7jqOlyibVTFd38ASXZ4BJz+A5NGsg=
+			7WWjFD8ZGp9t4ABWP+a8AKziEeEDiTjlGqgQI7X64DI=
 			</data>
 		</dict>
 	</dict>
