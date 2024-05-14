@@ -5418,6 +5418,8 @@ namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") 
 
 
 
+
+
 class SWIFT_SYMBOL("s:13SplineRuntime0A21ImmersiveSpaceContentV") SplineImmersiveSpaceContent;
 } // end namespace 
 
@@ -5834,6 +5836,9 @@ struct implClassFor<SplineRuntime::SplineVolumetricContent> { using type = Splin
 } // namespace swift
 
 namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
+
+
+
 
 
 

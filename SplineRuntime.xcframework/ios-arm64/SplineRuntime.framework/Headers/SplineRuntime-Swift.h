@@ -5418,6 +5418,8 @@ namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") 
 
 
 
+
+
 class SWIFT_AVAILABILITY(maccatalyst,introduced=16.0) SWIFT_AVAILABILITY(ios,introduced=16.0) SWIFT_SYMBOL("s:13SplineRuntime0A4ViewV") SplineView;
 } // end namespace 
 
@@ -5556,6 +5558,9 @@ struct SWIFT_AVAILABILITY(maccatalyst,introduced=16.0) SWIFT_AVAILABILITY(ios,in
 } // namespace swift
 
 namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
+
+
+
 
 
 
