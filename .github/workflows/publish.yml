@@ -21,9 +21,9 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           github-token: ${{ secrets.PATSPL }}
-          name: SplineRuntime.xcframework
-          repository: splinetool/repo
-          run-id: 1234
+          name: SplineRuntime_${{ github.event.client_payload.version }}
+          repository: ${{ github.event.client_payload.source_repo }}
+          run-id: ${{ github.event.client_payload.run_id }}
 
       - name: Display downloaded files
         run: ls -la
