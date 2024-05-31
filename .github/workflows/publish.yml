@@ -22,8 +22,9 @@ jobs:
         with:
           github-token: ${{ secrets.PATSPL }}
           name: SplineRuntime_${{ github.event.client_payload.version }}
+          path: SplineRuntime.xcframework
           repository: ${{ github.event.client_payload.source_repo }}
           run-id: ${{ github.event.client_payload.run_id }}
 
       - name: Display downloaded files
-        run: ls -la
+        run: ls -lR
