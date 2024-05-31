@@ -9,13 +9,17 @@ jobs:
     name: Publish
     runs-on: ubuntu-latest
     steps:
+      - name: Generate token from spline-bot
+        id: generate-token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.SPLINE_BOT_APP_ID }}
+          private_key: ${{ secrets.SPLINE_BOT_APP_KEY }}
+
       - name: Checkout repo
         uses: actions/checkout@v4
-
-      - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
+        with:
+          token: ${{ steps.generate-token.outputs.token }}
 
       - name: Download built SplineRuntime.xcframework
         uses: actions/download-artifact@v4
@@ -26,5 +30,15 @@ jobs:
           repository: ${{ github.event.client_payload.source_repo }}
           run-id: ${{ github.event.client_payload.run_id }}
 
-      - name: Display downloaded files
-        run: ls -lR
+      - name: Push the changes
+        run: |
+          git config user.name "spline-bot[bot]"
+          git config user.email "spline-bot[bot]@users.noreply.github.com"
+
+          if [[ `git status --porcelain` ]]; then
+            git add -A
+            git commit -m "Release ${{ github.event.client_payload.version }}"
+            git push
+          else
+            echo "No local changes detected."
+          fi
