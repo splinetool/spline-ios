@@ -21,14 +21,19 @@ jobs:
         with:
           token: ${{ steps.generate-token.outputs.token }}
 
-      - name: Download built SplineRuntime.xcframework
+      - name: Download the zip
         uses: actions/download-artifact@v4
         with:
           github-token: ${{ secrets.PATSPL }}
           name: SplineRuntime_${{ github.event.client_payload.version }}
-          path: SplineRuntime.xcframework
           repository: ${{ github.event.client_payload.source_repo }}
           run-id: ${{ github.event.client_payload.run_id }}
+
+      - name: Unzip SplineRuntime.xcframework
+        run: unzip SplineRuntime_${{ github.event.client_payload.version }}.zip
+
+      - name: Delete the zip
+        run: rm SplineRuntime_${{ github.event.client_payload.version }}.zip
 
       - name: Push the changes
         run: |
