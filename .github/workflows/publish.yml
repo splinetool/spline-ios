@@ -30,7 +30,7 @@ jobs:
           run-id: ${{ github.event.client_payload.run_id }}
 
       - name: Unzip SplineRuntime.xcframework
-        run: unzip SplineRuntime_${{ github.event.client_payload.version }}.zip
+        run: unzip -o SplineRuntime_${{ github.event.client_payload.version }}.zip
 
       - name: Delete the zip
         run: rm SplineRuntime_${{ github.event.client_payload.version }}.zip
