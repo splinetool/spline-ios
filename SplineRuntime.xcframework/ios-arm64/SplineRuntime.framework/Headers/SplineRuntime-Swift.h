@@ -5051,7 +5051,20 @@ namespace _impl {
 extern "C" {
 #endif
 
-SWIFT_EXTERN ptrdiff_t $s13SplineRuntime8AppErrorO9hashValueSivg(SWIFT_CONTEXT const void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // _
+// Stub struct to be used to pass/return values to/from Swift functions.
+struct swift_interop_returnStub_SplineRuntime_uint64_t_0_8_uint64_t_8_16 {
+  uint64_t _1;
+  uint64_t _2;
+};
+
+static SWIFT_C_INLINE_THUNK void swift_interop_returnDirect_SplineRuntime_uint64_t_0_8_uint64_t_8_16(char * _Nonnull result, struct swift_interop_returnStub_SplineRuntime_uint64_t_0_8_uint64_t_8_16 value) {
+  memcpy(result + 0, &value._1, 8);
+  memcpy(result + 8, &value._2, 8);
+}
+
+SWIFT_EXTERN struct swift_interop_returnStub_SplineRuntime_uint64_t_0_8_uint64_t_8_16 $s13SplineRuntime0A9ViewErrorO16errorDescriptionSSSgvg(SWIFT_CONTEXT const void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // _
+SWIFT_EXTERN ptrdiff_t $s13SplineRuntime0A9ViewErrorO9hashValueSivg(SWIFT_CONTEXT const void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // _
+SWIFT_EXTERN void $s13SplineRuntime0A9ViewPhaseO7contentAA0A7ContentVSgvg(SWIFT_INDIRECT_RESULT void * _Nonnull, SWIFT_CONTEXT const void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // _
 
 #ifdef __cplusplus
 }
@@ -5059,36 +5072,150 @@ SWIFT_EXTERN ptrdiff_t $s13SplineRuntime8AppErrorO9hashValueSivg(SWIFT_CONTEXT c
 }
 namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
 
-class SWIFT_SYMBOL("s:13SplineRuntime8AppErrorO") AppError;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class SWIFT_SYMBOL("s:13SplineRuntime0A7ContentV") SplineContent;
 } // end namespace 
 
 namespace swift SWIFT_PRIVATE_ATTR {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
 template<>
-static inline const constexpr bool isUsableInGenericContext<SplineRuntime::AppError> = true;
+static inline const constexpr bool isUsableInGenericContext<SplineRuntime::SplineContent> = true;
 #pragma clang diagnostic pop
 } // namespace swift
 
 namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
 namespace _impl {
 
-class _impl_AppError;
+class _impl_SplineContent;
 
-// Type metadata accessor for AppError
-SWIFT_EXTERN swift::_impl::MetadataResponseTy $s13SplineRuntime8AppErrorOMa(swift::_impl::MetadataRequestTy) SWIFT_NOEXCEPT SWIFT_CALL;
+// Type metadata accessor for SplineContent
+SWIFT_EXTERN swift::_impl::MetadataResponseTy $s13SplineRuntime0A7ContentVMa(swift::_impl::MetadataRequestTy) SWIFT_NOEXCEPT SWIFT_CALL;
 
-// Tags for resilient enum AppError
-extern "C" {
-extern unsigned $s13SplineRuntime8AppErrorO17unsupportedDeviceyA2CmFWC;
-}
 
 } // namespace _impl
 
-class SWIFT_SYMBOL("s:13SplineRuntime8AppErrorO") AppError final {
+class SWIFT_SYMBOL("s:13SplineRuntime0A7ContentV") SplineContent final {
 public:
-  SWIFT_INLINE_THUNK ~AppError() noexcept {
-    auto metadata = _impl::$s13SplineRuntime8AppErrorOMa(0);
+  SWIFT_INLINE_THUNK ~SplineContent() noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A7ContentVMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
@@ -5097,8 +5224,8 @@ public:
 #endif
     vwTable->destroy(_getOpaquePointer(), metadata._0);
   }
-  SWIFT_INLINE_THUNK AppError(const AppError &other) noexcept {
-    auto metadata = _impl::$s13SplineRuntime8AppErrorOMa(0);
+  SWIFT_INLINE_THUNK SplineContent(const SplineContent &other) noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A7ContentVMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
@@ -5108,8 +5235,8 @@ public:
     _storage = swift::_impl::OpaqueStorage(vwTable->size, vwTable->getAlignment());
     vwTable->initializeWithCopy(_getOpaquePointer(), const_cast<char *>(other._getOpaquePointer()), metadata._0);
   }
-  SWIFT_INLINE_THUNK AppError &operator =(const AppError &other) noexcept {
-    auto metadata = _impl::$s13SplineRuntime8AppErrorOMa(0);
+  SWIFT_INLINE_THUNK SplineContent &operator =(const SplineContent &other) noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A7ContentVMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
@@ -5119,27 +5246,210 @@ public:
     vwTable->assignWithCopy(_getOpaquePointer(), const_cast<char *>(other._getOpaquePointer()), metadata._0);
   return *this;
   }
-  SWIFT_INLINE_THUNK AppError &operator =(AppError &&other) = delete;
-  [[noreturn]] SWIFT_INLINE_PRIVATE_HELPER AppError(AppError &&) noexcept {
+  SWIFT_INLINE_THUNK SplineContent &operator =(SplineContent &&other) = delete;
+  [[noreturn]] SWIFT_INLINE_PRIVATE_HELPER SplineContent(SplineContent &&) noexcept {
+  swift::_impl::_fatalError_Cxx_move_of_Swift_value_type_not_supported_yet();
+  swift::_impl::_swift_stdlib_reportFatalError("swift", 5, "C++ does not support moving a Swift value yet", 45, 0);
+  abort();
+  }
+private:
+  SWIFT_INLINE_THUNK SplineContent(swift::_impl::ValueWitnessTable * _Nonnull vwTable) noexcept : _storage(vwTable->size, vwTable->getAlignment()) {}
+  static SWIFT_INLINE_THUNK SplineContent _make() noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A7ContentVMa(0);
+    auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
+#ifdef __arm64e__
+    auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
+#else
+    auto *vwTable = *vwTableAddr;
+#endif
+    return SplineContent(vwTable);
+  }
+  SWIFT_INLINE_THUNK const char * _Nonnull _getOpaquePointer() const noexcept { return _storage.getOpaquePointer(); }
+  SWIFT_INLINE_THUNK char * _Nonnull _getOpaquePointer() noexcept { return _storage.getOpaquePointer(); }
+
+  swift::_impl::OpaqueStorage _storage;
+  friend class _impl::_impl_SplineContent;
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc++17-extensions"
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wreserved-identifier"
+  typedef char $s13SplineRuntime0A7ContentVD;
+  static inline constexpr $s13SplineRuntime0A7ContentVD __swift_mangled_name = 0;
+#pragma clang diagnostic pop
+#pragma clang diagnostic pop
+};
+
+namespace _impl {
+
+class _impl_SplineContent {
+public:
+  static SWIFT_INLINE_THUNK char * _Nonnull getOpaquePointer(SplineContent &object) { return object._getOpaquePointer(); }
+  static SWIFT_INLINE_THUNK const char * _Nonnull getOpaquePointer(const SplineContent &object) { return object._getOpaquePointer(); }
+  template<class T>
+  static SWIFT_INLINE_PRIVATE_HELPER SplineContent returnNewValue(T callable) {
+    auto result = SplineContent::_make();
+    callable(result._getOpaquePointer());
+    return result;
+  }
+  static SWIFT_INLINE_THUNK void initializeWithTake(char * _Nonnull destStorage, char * _Nonnull srcStorage) {
+    auto metadata = _impl::$s13SplineRuntime0A7ContentVMa(0);
+    auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
+#ifdef __arm64e__
+    auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
+#else
+    auto *vwTable = *vwTableAddr;
+#endif
+    vwTable->initializeWithTake(destStorage, srcStorage, metadata._0);
+  }
+};
+
+} // namespace _impl
+
+} // end namespace 
+
+namespace swift SWIFT_PRIVATE_ATTR {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc++17-extensions"
+template<>
+struct TypeMetadataTrait<SplineRuntime::SplineContent> {
+  static SWIFT_INLINE_THUNK void * _Nonnull getTypeMetadata() {
+    return SplineRuntime::_impl::$s13SplineRuntime0A7ContentVMa(0)._0;
+  }
+};
+namespace _impl{
+template<>
+static inline const constexpr bool isValueType<SplineRuntime::SplineContent> = true;
+template<>
+static inline const constexpr bool isOpaqueLayout<SplineRuntime::SplineContent> = true;
+template<>
+struct implClassFor<SplineRuntime::SplineContent> { using type = SplineRuntime::_impl::_impl_SplineContent; };
+} // namespace
+#pragma clang diagnostic pop
+} // namespace swift
+
+namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
+
+class SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO") SplineViewError;
+} // end namespace 
+
+namespace swift SWIFT_PRIVATE_ATTR {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc++17-extensions"
+template<>
+static inline const constexpr bool isUsableInGenericContext<SplineRuntime::SplineViewError> = true;
+#pragma clang diagnostic pop
+} // namespace swift
+
+namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
+namespace _impl {
+
+class _impl_SplineViewError;
+
+// Type metadata accessor for SplineViewError
+SWIFT_EXTERN swift::_impl::MetadataResponseTy $s13SplineRuntime0A9ViewErrorOMa(swift::_impl::MetadataRequestTy) SWIFT_NOEXCEPT SWIFT_CALL;
+
+// Tags for resilient enum SplineViewError
+extern "C" {
+extern unsigned $s13SplineRuntime0A9ViewErrorO17deviceUnsupportedyA2CmFWC;
+extern unsigned $s13SplineRuntime0A9ViewErrorO15fileUnreachableyA2CmFWC;
+extern unsigned $s13SplineRuntime0A9ViewErrorO17fileUnknownFormatyA2CmFWC;
+extern unsigned $s13SplineRuntime0A9ViewErrorO13fileOldFormatyA2CmFWC;
+extern unsigned $s13SplineRuntime0A9ViewErrorO13fileNewFormatyA2CmFWC;
+}
+
+} // namespace _impl
+
+class SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO") SplineViewError final {
+public:
+  SWIFT_INLINE_THUNK ~SplineViewError() noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A9ViewErrorOMa(0);
+    auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
+#ifdef __arm64e__
+    auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
+#else
+    auto *vwTable = *vwTableAddr;
+#endif
+    vwTable->destroy(_getOpaquePointer(), metadata._0);
+  }
+  SWIFT_INLINE_THUNK SplineViewError(const SplineViewError &other) noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A9ViewErrorOMa(0);
+    auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
+#ifdef __arm64e__
+    auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
+#else
+    auto *vwTable = *vwTableAddr;
+#endif
+    _storage = swift::_impl::OpaqueStorage(vwTable->size, vwTable->getAlignment());
+    vwTable->initializeWithCopy(_getOpaquePointer(), const_cast<char *>(other._getOpaquePointer()), metadata._0);
+  }
+  SWIFT_INLINE_THUNK SplineViewError &operator =(const SplineViewError &other) noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A9ViewErrorOMa(0);
+    auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
+#ifdef __arm64e__
+    auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
+#else
+    auto *vwTable = *vwTableAddr;
+#endif
+    vwTable->assignWithCopy(_getOpaquePointer(), const_cast<char *>(other._getOpaquePointer()), metadata._0);
+  return *this;
+  }
+  SWIFT_INLINE_THUNK SplineViewError &operator =(SplineViewError &&other) = delete;
+  [[noreturn]] SWIFT_INLINE_PRIVATE_HELPER SplineViewError(SplineViewError &&) noexcept {
   swift::_impl::_fatalError_Cxx_move_of_Swift_value_type_not_supported_yet();
   swift::_impl::_swift_stdlib_reportFatalError("swift", 5, "C++ does not support moving a Swift value yet", 45, 0);
   abort();
   }
 
   enum class cases {
-    unsupportedDevice SWIFT_SYMBOL("s:13SplineRuntime8AppErrorO17unsupportedDeviceyA2CmF"),
+    deviceUnsupported SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO17deviceUnsupportedyA2CmF"),
+    fileUnreachable SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO15fileUnreachableyA2CmF"),
+    fileUnknownFormat SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO17fileUnknownFormatyA2CmF"),
+    fileOldFormat SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO13fileOldFormatyA2CmF"),
+    fileNewFormat SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO13fileNewFormatyA2CmF"),
     unknownDefault
   };
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"  // allow use of inline static data member
-  inline const static struct _impl_unsupportedDevice {  // impl struct for case unsupportedDevice
+  inline const static struct _impl_deviceUnsupported {  // impl struct for case deviceUnsupported
     SWIFT_INLINE_THUNK constexpr operator cases() const {
-      return cases::unsupportedDevice;
+      return cases::deviceUnsupported;
     }
-    SWIFT_INLINE_THUNK AppError operator()() const;
-  } unsupportedDevice SWIFT_SYMBOL("s:13SplineRuntime8AppErrorO17unsupportedDeviceyA2CmF");
-  SWIFT_INLINE_THUNK bool isUnsupportedDevice() const;
+    SWIFT_INLINE_THUNK SplineViewError operator()() const;
+  } deviceUnsupported SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO17deviceUnsupportedyA2CmF");
+  SWIFT_INLINE_THUNK bool isDeviceUnsupported() const;
+
+  inline const static struct _impl_fileUnreachable {  // impl struct for case fileUnreachable
+    SWIFT_INLINE_THUNK constexpr operator cases() const {
+      return cases::fileUnreachable;
+    }
+    SWIFT_INLINE_THUNK SplineViewError operator()() const;
+  } fileUnreachable SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO15fileUnreachableyA2CmF");
+  SWIFT_INLINE_THUNK bool isFileUnreachable() const;
+
+  inline const static struct _impl_fileUnknownFormat {  // impl struct for case fileUnknownFormat
+    SWIFT_INLINE_THUNK constexpr operator cases() const {
+      return cases::fileUnknownFormat;
+    }
+    SWIFT_INLINE_THUNK SplineViewError operator()() const;
+  } fileUnknownFormat SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO17fileUnknownFormatyA2CmF");
+  SWIFT_INLINE_THUNK bool isFileUnknownFormat() const;
+
+  inline const static struct _impl_fileOldFormat {  // impl struct for case fileOldFormat
+    SWIFT_INLINE_THUNK constexpr operator cases() const {
+      return cases::fileOldFormat;
+    }
+    SWIFT_INLINE_THUNK SplineViewError operator()() const;
+  } fileOldFormat SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO13fileOldFormatyA2CmF");
+  SWIFT_INLINE_THUNK bool isFileOldFormat() const;
+
+  inline const static struct _impl_fileNewFormat {  // impl struct for case fileNewFormat
+    SWIFT_INLINE_THUNK constexpr operator cases() const {
+      return cases::fileNewFormat;
+    }
+    SWIFT_INLINE_THUNK SplineViewError operator()() const;
+  } fileNewFormat SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO13fileNewFormatyA2CmF");
+  SWIFT_INLINE_THUNK bool isFileNewFormat() const;
 
   inline const static struct _impl_unknownDefault {  // impl struct for case unknownDefault
     SWIFT_INLINE_THUNK constexpr operator cases() const {
@@ -5151,28 +5461,33 @@ public:
 #pragma clang diagnostic pop
   SWIFT_INLINE_THUNK operator cases() const {
     auto tag = _getEnumTag();
-    if (tag == _impl::$s13SplineRuntime8AppErrorO17unsupportedDeviceyA2CmFWC) return cases::unsupportedDevice;
+    if (tag == _impl::$s13SplineRuntime0A9ViewErrorO17deviceUnsupportedyA2CmFWC) return cases::deviceUnsupported;
+    if (tag == _impl::$s13SplineRuntime0A9ViewErrorO15fileUnreachableyA2CmFWC) return cases::fileUnreachable;
+    if (tag == _impl::$s13SplineRuntime0A9ViewErrorO17fileUnknownFormatyA2CmFWC) return cases::fileUnknownFormat;
+    if (tag == _impl::$s13SplineRuntime0A9ViewErrorO13fileOldFormatyA2CmFWC) return cases::fileOldFormat;
+    if (tag == _impl::$s13SplineRuntime0A9ViewErrorO13fileNewFormatyA2CmFWC) return cases::fileNewFormat;
     return cases::unknownDefault;
   }
 
-  SWIFT_INLINE_THUNK swift::Int getHashValue() const SWIFT_SYMBOL("s:13SplineRuntime8AppErrorO9hashValueSivp");
+  SWIFT_INLINE_THUNK swift::Optional<swift::String> getErrorDescription() const SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO16errorDescriptionSSSgvp");
+  SWIFT_INLINE_THUNK swift::Int getHashValue() const SWIFT_SYMBOL("s:13SplineRuntime0A9ViewErrorO9hashValueSivp");
 private:
-  SWIFT_INLINE_THUNK AppError(swift::_impl::ValueWitnessTable * _Nonnull vwTable) noexcept : _storage(vwTable->size, vwTable->getAlignment()) {}
-  static SWIFT_INLINE_THUNK AppError _make() noexcept {
-    auto metadata = _impl::$s13SplineRuntime8AppErrorOMa(0);
+  SWIFT_INLINE_THUNK SplineViewError(swift::_impl::ValueWitnessTable * _Nonnull vwTable) noexcept : _storage(vwTable->size, vwTable->getAlignment()) {}
+  static SWIFT_INLINE_THUNK SplineViewError _make() noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A9ViewErrorOMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
 #else
     auto *vwTable = *vwTableAddr;
 #endif
-    return AppError(vwTable);
+    return SplineViewError(vwTable);
   }
   SWIFT_INLINE_THUNK const char * _Nonnull _getOpaquePointer() const noexcept { return _storage.getOpaquePointer(); }
   SWIFT_INLINE_THUNK char * _Nonnull _getOpaquePointer() noexcept { return _storage.getOpaquePointer(); }
 
   SWIFT_INLINE_THUNK char * _Nonnull _destructiveProjectEnumData() noexcept {
-    auto metadata = _impl::$s13SplineRuntime8AppErrorOMa(0);
+    auto metadata = _impl::$s13SplineRuntime0A9ViewErrorOMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
@@ -5184,7 +5499,7 @@ private:
     return _getOpaquePointer();
   }
   SWIFT_INLINE_THUNK void _destructiveInjectEnumTag(unsigned tag) noexcept {
-    auto metadata = _impl::$s13SplineRuntime8AppErrorOMa(0);
+    auto metadata = _impl::$s13SplineRuntime0A9ViewErrorOMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
@@ -5195,7 +5510,7 @@ private:
     enumVWTable->destructiveInjectEnumTag(_getOpaquePointer(), tag, metadata._0);
   }
   SWIFT_INLINE_THUNK unsigned _getEnumTag() const noexcept {
-    auto metadata = _impl::$s13SplineRuntime8AppErrorOMa(0);
+    auto metadata = _impl::$s13SplineRuntime0A9ViewErrorOMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
@@ -5206,31 +5521,31 @@ private:
     return enumVWTable->getEnumTag(_getOpaquePointer(), metadata._0);
   }
   swift::_impl::OpaqueStorage _storage;
-  friend class _impl::_impl_AppError;
+  friend class _impl::_impl_SplineViewError;
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wreserved-identifier"
-  typedef char $s13SplineRuntime8AppErrorOD;
-  static inline constexpr $s13SplineRuntime8AppErrorOD __swift_mangled_name = 0;
+  typedef char $s13SplineRuntime0A9ViewErrorOD;
+  static inline constexpr $s13SplineRuntime0A9ViewErrorOD __swift_mangled_name = 0;
 #pragma clang diagnostic pop
 #pragma clang diagnostic pop
 };
 
 namespace _impl {
 
-class _impl_AppError {
+class _impl_SplineViewError {
 public:
-  static SWIFT_INLINE_THUNK char * _Nonnull getOpaquePointer(AppError &object) { return object._getOpaquePointer(); }
-  static SWIFT_INLINE_THUNK const char * _Nonnull getOpaquePointer(const AppError &object) { return object._getOpaquePointer(); }
+  static SWIFT_INLINE_THUNK char * _Nonnull getOpaquePointer(SplineViewError &object) { return object._getOpaquePointer(); }
+  static SWIFT_INLINE_THUNK const char * _Nonnull getOpaquePointer(const SplineViewError &object) { return object._getOpaquePointer(); }
   template<class T>
-  static SWIFT_INLINE_PRIVATE_HELPER AppError returnNewValue(T callable) {
-    auto result = AppError::_make();
+  static SWIFT_INLINE_PRIVATE_HELPER SplineViewError returnNewValue(T callable) {
+    auto result = SplineViewError::_make();
     callable(result._getOpaquePointer());
     return result;
   }
   static SWIFT_INLINE_THUNK void initializeWithTake(char * _Nonnull destStorage, char * _Nonnull srcStorage) {
-    auto metadata = _impl::$s13SplineRuntime8AppErrorOMa(0);
+    auto metadata = _impl::$s13SplineRuntime0A9ViewErrorOMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
@@ -5249,160 +5564,56 @@ namespace swift SWIFT_PRIVATE_ATTR {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
 template<>
-struct TypeMetadataTrait<SplineRuntime::AppError> {
+struct TypeMetadataTrait<SplineRuntime::SplineViewError> {
   static SWIFT_INLINE_THUNK void * _Nonnull getTypeMetadata() {
-    return SplineRuntime::_impl::$s13SplineRuntime8AppErrorOMa(0)._0;
+    return SplineRuntime::_impl::$s13SplineRuntime0A9ViewErrorOMa(0)._0;
   }
 };
 namespace _impl{
 template<>
-static inline const constexpr bool isValueType<SplineRuntime::AppError> = true;
+static inline const constexpr bool isValueType<SplineRuntime::SplineViewError> = true;
 template<>
-static inline const constexpr bool isOpaqueLayout<SplineRuntime::AppError> = true;
+static inline const constexpr bool isOpaqueLayout<SplineRuntime::SplineViewError> = true;
 template<>
-struct implClassFor<SplineRuntime::AppError> { using type = SplineRuntime::_impl::_impl_AppError; };
+struct implClassFor<SplineRuntime::SplineViewError> { using type = SplineRuntime::_impl::_impl_SplineViewError; };
 } // namespace
 #pragma clang diagnostic pop
 } // namespace swift
 
 namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-class SWIFT_AVAILABILITY(maccatalyst,introduced=16.0) SWIFT_AVAILABILITY(ios,introduced=16.0) SWIFT_SYMBOL("s:13SplineRuntime0A4ViewV") SplineView;
+class SWIFT_SYMBOL("s:13SplineRuntime0A9ViewPhaseO") SplineViewPhase;
 } // end namespace 
 
 namespace swift SWIFT_PRIVATE_ATTR {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
 template<>
-static inline const constexpr bool isUsableInGenericContext<SplineRuntime::SplineView> = true;
+static inline const constexpr bool isUsableInGenericContext<SplineRuntime::SplineViewPhase> = true;
 #pragma clang diagnostic pop
 } // namespace swift
 
 namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
 namespace _impl {
 
-class SWIFT_AVAILABILITY(maccatalyst,introduced=16.0) SWIFT_AVAILABILITY(ios,introduced=16.0) _impl_SplineView;
+class _impl_SplineViewPhase;
 
-// Type metadata accessor for SplineView
-SWIFT_EXTERN swift::_impl::MetadataResponseTy $s13SplineRuntime0A4ViewVMa(swift::_impl::MetadataRequestTy) SWIFT_NOEXCEPT SWIFT_CALL;
+// Type metadata accessor for SplineViewPhase
+SWIFT_EXTERN swift::_impl::MetadataResponseTy $s13SplineRuntime0A9ViewPhaseOMa(swift::_impl::MetadataRequestTy) SWIFT_NOEXCEPT SWIFT_CALL;
 
+// Tags for resilient enum SplineViewPhase
+extern "C" {
+extern unsigned $s13SplineRuntime0A9ViewPhaseO5emptyyA2CmFWC;
+extern unsigned $s13SplineRuntime0A9ViewPhaseO7successyAcA0A7ContentVcACmFWC;
+extern unsigned $s13SplineRuntime0A9ViewPhaseO7failureyAcA0aC5ErrorOcACmFWC;
+}
 
 } // namespace _impl
 
-class SWIFT_AVAILABILITY(maccatalyst,introduced=16.0) SWIFT_AVAILABILITY(ios,introduced=16.0) SWIFT_SYMBOL("s:13SplineRuntime0A4ViewV") SplineView final {
+class SWIFT_SYMBOL("s:13SplineRuntime0A9ViewPhaseO") SplineViewPhase final {
 public:
-  SWIFT_INLINE_THUNK ~SplineView() noexcept {
-    auto metadata = _impl::$s13SplineRuntime0A4ViewVMa(0);
+  SWIFT_INLINE_THUNK ~SplineViewPhase() noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A9ViewPhaseOMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
@@ -5411,8 +5622,8 @@ public:
 #endif
     vwTable->destroy(_getOpaquePointer(), metadata._0);
   }
-  SWIFT_INLINE_THUNK SplineView(const SplineView &other) noexcept {
-    auto metadata = _impl::$s13SplineRuntime0A4ViewVMa(0);
+  SWIFT_INLINE_THUNK SplineViewPhase(const SplineViewPhase &other) noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A9ViewPhaseOMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
@@ -5422,8 +5633,8 @@ public:
     _storage = swift::_impl::OpaqueStorage(vwTable->size, vwTable->getAlignment());
     vwTable->initializeWithCopy(_getOpaquePointer(), const_cast<char *>(other._getOpaquePointer()), metadata._0);
   }
-  SWIFT_INLINE_THUNK SplineView &operator =(const SplineView &other) noexcept {
-    auto metadata = _impl::$s13SplineRuntime0A4ViewVMa(0);
+  SWIFT_INLINE_THUNK SplineViewPhase &operator =(const SplineViewPhase &other) noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A9ViewPhaseOMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
@@ -5433,53 +5644,140 @@ public:
     vwTable->assignWithCopy(_getOpaquePointer(), const_cast<char *>(other._getOpaquePointer()), metadata._0);
   return *this;
   }
-  SWIFT_INLINE_THUNK SplineView &operator =(SplineView &&other) = delete;
-  [[noreturn]] SWIFT_INLINE_PRIVATE_HELPER SplineView(SplineView &&) noexcept {
+  SWIFT_INLINE_THUNK SplineViewPhase &operator =(SplineViewPhase &&other) = delete;
+  [[noreturn]] SWIFT_INLINE_PRIVATE_HELPER SplineViewPhase(SplineViewPhase &&) noexcept {
   swift::_impl::_fatalError_Cxx_move_of_Swift_value_type_not_supported_yet();
   swift::_impl::_swift_stdlib_reportFatalError("swift", 5, "C++ does not support moving a Swift value yet", 45, 0);
   abort();
   }
+
+  enum class cases {
+    success SWIFT_SYMBOL("s:13SplineRuntime0A9ViewPhaseO7successyAcA0A7ContentVcACmF"),
+    failure SWIFT_SYMBOL("s:13SplineRuntime0A9ViewPhaseO7failureyAcA0aC5ErrorOcACmF"),
+    empty SWIFT_SYMBOL("s:13SplineRuntime0A9ViewPhaseO5emptyyA2CmF"),
+    unknownDefault
+  };
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc++17-extensions"  // allow use of inline static data member
+  inline const static struct _impl_success {  // impl struct for case success
+    SWIFT_INLINE_THUNK constexpr operator cases() const {
+      return cases::success;
+    }
+    SWIFT_INLINE_THUNK SplineViewPhase operator()(const SplineContent& val) const;
+  } success SWIFT_SYMBOL("s:13SplineRuntime0A9ViewPhaseO7successyAcA0A7ContentVcACmF");
+  SWIFT_INLINE_THUNK bool isSuccess() const;
+  SWIFT_INLINE_THUNK SplineContent getSuccess() const;
+
+  inline const static struct _impl_failure {  // impl struct for case failure
+    SWIFT_INLINE_THUNK constexpr operator cases() const {
+      return cases::failure;
+    }
+    SWIFT_INLINE_THUNK SplineViewPhase operator()(const SplineViewError& val) const;
+  } failure SWIFT_SYMBOL("s:13SplineRuntime0A9ViewPhaseO7failureyAcA0aC5ErrorOcACmF");
+  SWIFT_INLINE_THUNK bool isFailure() const;
+  SWIFT_INLINE_THUNK SplineViewError getFailure() const;
+
+  inline const static struct _impl_empty {  // impl struct for case empty
+    SWIFT_INLINE_THUNK constexpr operator cases() const {
+      return cases::empty;
+    }
+    SWIFT_INLINE_THUNK SplineViewPhase operator()() const;
+  } empty SWIFT_SYMBOL("s:13SplineRuntime0A9ViewPhaseO5emptyyA2CmF");
+  SWIFT_INLINE_THUNK bool isEmpty() const;
+
+  inline const static struct _impl_unknownDefault {  // impl struct for case unknownDefault
+    SWIFT_INLINE_THUNK constexpr operator cases() const {
+      return cases::unknownDefault;
+    }
+  } unknownDefault;
+  SWIFT_INLINE_THUNK bool isUnknownDefault() const;
+
+#pragma clang diagnostic pop
+  SWIFT_INLINE_THUNK operator cases() const {
+    auto tag = _getEnumTag();
+    if (tag == _impl::$s13SplineRuntime0A9ViewPhaseO7successyAcA0A7ContentVcACmFWC) return cases::success;
+    if (tag == _impl::$s13SplineRuntime0A9ViewPhaseO7failureyAcA0aC5ErrorOcACmFWC) return cases::failure;
+    if (tag == _impl::$s13SplineRuntime0A9ViewPhaseO5emptyyA2CmFWC) return cases::empty;
+    return cases::unknownDefault;
+  }
+
+  SWIFT_INLINE_THUNK swift::Optional<SplineContent> getContent() const SWIFT_SYMBOL("s:13SplineRuntime0A9ViewPhaseO7contentAA0A7ContentVSgvp");
 private:
-  SWIFT_INLINE_THUNK SplineView(swift::_impl::ValueWitnessTable * _Nonnull vwTable) noexcept : _storage(vwTable->size, vwTable->getAlignment()) {}
-  static SWIFT_INLINE_THUNK SplineView _make() noexcept {
-    auto metadata = _impl::$s13SplineRuntime0A4ViewVMa(0);
+  SWIFT_INLINE_THUNK SplineViewPhase(swift::_impl::ValueWitnessTable * _Nonnull vwTable) noexcept : _storage(vwTable->size, vwTable->getAlignment()) {}
+  static SWIFT_INLINE_THUNK SplineViewPhase _make() noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A9ViewPhaseOMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
 #else
     auto *vwTable = *vwTableAddr;
 #endif
-    return SplineView(vwTable);
+    return SplineViewPhase(vwTable);
   }
   SWIFT_INLINE_THUNK const char * _Nonnull _getOpaquePointer() const noexcept { return _storage.getOpaquePointer(); }
   SWIFT_INLINE_THUNK char * _Nonnull _getOpaquePointer() noexcept { return _storage.getOpaquePointer(); }
 
+  SWIFT_INLINE_THUNK char * _Nonnull _destructiveProjectEnumData() noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A9ViewPhaseOMa(0);
+    auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
+#ifdef __arm64e__
+    auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
+#else
+    auto *vwTable = *vwTableAddr;
+#endif
+    const auto *enumVWTable = reinterpret_cast<swift::_impl::EnumValueWitnessTable *>(vwTable);
+    enumVWTable->destructiveProjectEnumData(_getOpaquePointer(), metadata._0);
+    return _getOpaquePointer();
+  }
+  SWIFT_INLINE_THUNK void _destructiveInjectEnumTag(unsigned tag) noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A9ViewPhaseOMa(0);
+    auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
+#ifdef __arm64e__
+    auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
+#else
+    auto *vwTable = *vwTableAddr;
+#endif
+    const auto *enumVWTable = reinterpret_cast<swift::_impl::EnumValueWitnessTable *>(vwTable);
+    enumVWTable->destructiveInjectEnumTag(_getOpaquePointer(), tag, metadata._0);
+  }
+  SWIFT_INLINE_THUNK unsigned _getEnumTag() const noexcept {
+    auto metadata = _impl::$s13SplineRuntime0A9ViewPhaseOMa(0);
+    auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
+#ifdef __arm64e__
+    auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
+#else
+    auto *vwTable = *vwTableAddr;
+#endif
+    const auto *enumVWTable = reinterpret_cast<swift::_impl::EnumValueWitnessTable *>(vwTable);
+    return enumVWTable->getEnumTag(_getOpaquePointer(), metadata._0);
+  }
   swift::_impl::OpaqueStorage _storage;
-  friend class _impl::_impl_SplineView;
+  friend class _impl::_impl_SplineViewPhase;
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wreserved-identifier"
-  typedef char $s13SplineRuntime0A4ViewVD;
-  static inline constexpr $s13SplineRuntime0A4ViewVD __swift_mangled_name = 0;
+  typedef char $s13SplineRuntime0A9ViewPhaseOD;
+  static inline constexpr $s13SplineRuntime0A9ViewPhaseOD __swift_mangled_name = 0;
 #pragma clang diagnostic pop
 #pragma clang diagnostic pop
 };
 
 namespace _impl {
 
-class SWIFT_AVAILABILITY(maccatalyst,introduced=16.0) SWIFT_AVAILABILITY(ios,introduced=16.0) _impl_SplineView {
+class _impl_SplineViewPhase {
 public:
-  static SWIFT_INLINE_THUNK char * _Nonnull getOpaquePointer(SplineView &object) { return object._getOpaquePointer(); }
-  static SWIFT_INLINE_THUNK const char * _Nonnull getOpaquePointer(const SplineView &object) { return object._getOpaquePointer(); }
+  static SWIFT_INLINE_THUNK char * _Nonnull getOpaquePointer(SplineViewPhase &object) { return object._getOpaquePointer(); }
+  static SWIFT_INLINE_THUNK const char * _Nonnull getOpaquePointer(const SplineViewPhase &object) { return object._getOpaquePointer(); }
   template<class T>
-  static SWIFT_INLINE_PRIVATE_HELPER SplineView returnNewValue(T callable) {
-    auto result = SplineView::_make();
+  static SWIFT_INLINE_PRIVATE_HELPER SplineViewPhase returnNewValue(T callable) {
+    auto result = SplineViewPhase::_make();
     callable(result._getOpaquePointer());
     return result;
   }
   static SWIFT_INLINE_THUNK void initializeWithTake(char * _Nonnull destStorage, char * _Nonnull srcStorage) {
-    auto metadata = _impl::$s13SplineRuntime0A4ViewVMa(0);
+    auto metadata = _impl::$s13SplineRuntime0A9ViewPhaseOMa(0);
     auto *vwTableAddr = reinterpret_cast<swift::_impl::ValueWitnessTable **>(metadata._0) - 1;
 #ifdef __arm64e__
     auto *vwTable = reinterpret_cast<swift::_impl::ValueWitnessTable *>(ptrauth_auth_data(reinterpret_cast<void *>(*vwTableAddr), ptrauth_key_process_independent_data, ptrauth_blend_discriminator(vwTableAddr, 11839)));
@@ -5498,18 +5796,18 @@ namespace swift SWIFT_PRIVATE_ATTR {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wc++17-extensions"
 template<>
-struct SWIFT_AVAILABILITY(maccatalyst,introduced=16.0) SWIFT_AVAILABILITY(ios,introduced=16.0) TypeMetadataTrait<SplineRuntime::SplineView> {
+struct TypeMetadataTrait<SplineRuntime::SplineViewPhase> {
   static SWIFT_INLINE_THUNK void * _Nonnull getTypeMetadata() {
-    return SplineRuntime::_impl::$s13SplineRuntime0A4ViewVMa(0)._0;
+    return SplineRuntime::_impl::$s13SplineRuntime0A9ViewPhaseOMa(0)._0;
   }
 };
 namespace _impl{
 template<>
-static inline const constexpr bool isValueType<SplineRuntime::SplineView> = true;
+static inline const constexpr bool isValueType<SplineRuntime::SplineViewPhase> = true;
 template<>
-static inline const constexpr bool isOpaqueLayout<SplineRuntime::SplineView> = true;
+static inline const constexpr bool isOpaqueLayout<SplineRuntime::SplineViewPhase> = true;
 template<>
-struct SWIFT_AVAILABILITY(maccatalyst,introduced=16.0) SWIFT_AVAILABILITY(ios,introduced=16.0) implClassFor<SplineRuntime::SplineView> { using type = SplineRuntime::_impl::_impl_SplineView; };
+struct implClassFor<SplineRuntime::SplineViewPhase> { using type = SplineRuntime::_impl::_impl_SplineViewPhase; };
 } // namespace
 #pragma clang diagnostic pop
 } // namespace swift
@@ -5545,20 +5843,116 @@ namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") 
 
 
 
-  SWIFT_INLINE_THUNK AppError AppError::_impl_unsupportedDevice::operator()() const {
-    auto result = AppError::_make();
-    result._destructiveInjectEnumTag(_impl::$s13SplineRuntime8AppErrorO17unsupportedDeviceyA2CmFWC);
+
+  SWIFT_INLINE_THUNK SplineViewError SplineViewError::_impl_deviceUnsupported::operator()() const {
+    auto result = SplineViewError::_make();
+    result._destructiveInjectEnumTag(_impl::$s13SplineRuntime0A9ViewErrorO17deviceUnsupportedyA2CmFWC);
     return result;
   }
-  SWIFT_INLINE_THUNK  bool AppError::isUnsupportedDevice() const {
-    return *this == AppError::unsupportedDevice;
+  SWIFT_INLINE_THUNK  bool SplineViewError::isDeviceUnsupported() const {
+    return *this == SplineViewError::deviceUnsupported;
   }
-  SWIFT_INLINE_THUNK  bool AppError::isUnknownDefault() const {
-    return *this == AppError::unknownDefault;
+  SWIFT_INLINE_THUNK SplineViewError SplineViewError::_impl_fileUnreachable::operator()() const {
+    auto result = SplineViewError::_make();
+    result._destructiveInjectEnumTag(_impl::$s13SplineRuntime0A9ViewErrorO15fileUnreachableyA2CmFWC);
+    return result;
   }
-  SWIFT_INLINE_THUNK swift::Int AppError::getHashValue() const {
-  return _impl::$s13SplineRuntime8AppErrorO9hashValueSivg(_getOpaquePointer());
+  SWIFT_INLINE_THUNK  bool SplineViewError::isFileUnreachable() const {
+    return *this == SplineViewError::fileUnreachable;
   }
+  SWIFT_INLINE_THUNK SplineViewError SplineViewError::_impl_fileUnknownFormat::operator()() const {
+    auto result = SplineViewError::_make();
+    result._destructiveInjectEnumTag(_impl::$s13SplineRuntime0A9ViewErrorO17fileUnknownFormatyA2CmFWC);
+    return result;
+  }
+  SWIFT_INLINE_THUNK  bool SplineViewError::isFileUnknownFormat() const {
+    return *this == SplineViewError::fileUnknownFormat;
+  }
+  SWIFT_INLINE_THUNK SplineViewError SplineViewError::_impl_fileOldFormat::operator()() const {
+    auto result = SplineViewError::_make();
+    result._destructiveInjectEnumTag(_impl::$s13SplineRuntime0A9ViewErrorO13fileOldFormatyA2CmFWC);
+    return result;
+  }
+  SWIFT_INLINE_THUNK  bool SplineViewError::isFileOldFormat() const {
+    return *this == SplineViewError::fileOldFormat;
+  }
+  SWIFT_INLINE_THUNK SplineViewError SplineViewError::_impl_fileNewFormat::operator()() const {
+    auto result = SplineViewError::_make();
+    result._destructiveInjectEnumTag(_impl::$s13SplineRuntime0A9ViewErrorO13fileNewFormatyA2CmFWC);
+    return result;
+  }
+  SWIFT_INLINE_THUNK  bool SplineViewError::isFileNewFormat() const {
+    return *this == SplineViewError::fileNewFormat;
+  }
+  SWIFT_INLINE_THUNK  bool SplineViewError::isUnknownDefault() const {
+    return *this == SplineViewError::unknownDefault;
+  }
+  SWIFT_INLINE_THUNK swift::Optional<swift::String> SplineViewError::getErrorDescription() const {
+  return swift::_impl::_impl_Optional<swift::String>::returnNewValue([&](char * _Nonnull result) SWIFT_INLINE_THUNK_ATTRIBUTES {
+    _impl::swift_interop_returnDirect_SplineRuntime_uint64_t_0_8_uint64_t_8_16(result, _impl::$s13SplineRuntime0A9ViewErrorO16errorDescriptionSSSgvg(_getOpaquePointer()));
+  });
+  }
+  SWIFT_INLINE_THUNK swift::Int SplineViewError::getHashValue() const {
+  return _impl::$s13SplineRuntime0A9ViewErrorO9hashValueSivg(_getOpaquePointer());
+  }
+  SWIFT_INLINE_THUNK SplineViewPhase SplineViewPhase::_impl_success::operator()(const SplineContent& val) const {
+    auto result = SplineViewPhase::_make();
+    alignas(SplineContent) unsigned char buffer[sizeof(SplineContent)];
+    auto *valCopy = new(buffer) SplineContent(val);
+    swift::_impl::implClassFor<SplineContent>::type::initializeWithTake(result._getOpaquePointer(), swift::_impl::implClassFor<SplineContent>::type::getOpaquePointer(*valCopy));
+    result._destructiveInjectEnumTag(_impl::$s13SplineRuntime0A9ViewPhaseO7successyAcA0A7ContentVcACmFWC);
+    return result;
+  }
+  SWIFT_INLINE_THUNK  bool SplineViewPhase::isSuccess() const {
+    return *this == SplineViewPhase::success;
+  }
+  SWIFT_INLINE_THUNK SplineContent SplineViewPhase::getSuccess() const {
+    if (!isSuccess()) abort();
+    alignas(SplineViewPhase) unsigned char buffer[sizeof(SplineViewPhase)];
+    auto *thisCopy = new(buffer) SplineViewPhase(*this);
+    char * _Nonnull payloadFromDestruction = thisCopy->_destructiveProjectEnumData();
+    return swift::_impl::implClassFor<SplineContent>::type::returnNewValue([&](char * _Nonnull result) SWIFT_INLINE_THUNK_ATTRIBUTES {
+      swift::_impl::implClassFor<SplineContent>::type::initializeWithTake(result, payloadFromDestruction);
+    });
+  }
+  SWIFT_INLINE_THUNK SplineViewPhase SplineViewPhase::_impl_failure::operator()(const SplineViewError& val) const {
+    auto result = SplineViewPhase::_make();
+    alignas(SplineViewError) unsigned char buffer[sizeof(SplineViewError)];
+    auto *valCopy = new(buffer) SplineViewError(val);
+    swift::_impl::implClassFor<SplineViewError>::type::initializeWithTake(result._getOpaquePointer(), swift::_impl::implClassFor<SplineViewError>::type::getOpaquePointer(*valCopy));
+    result._destructiveInjectEnumTag(_impl::$s13SplineRuntime0A9ViewPhaseO7failureyAcA0aC5ErrorOcACmFWC);
+    return result;
+  }
+  SWIFT_INLINE_THUNK  bool SplineViewPhase::isFailure() const {
+    return *this == SplineViewPhase::failure;
+  }
+  SWIFT_INLINE_THUNK SplineViewError SplineViewPhase::getFailure() const {
+    if (!isFailure()) abort();
+    alignas(SplineViewPhase) unsigned char buffer[sizeof(SplineViewPhase)];
+    auto *thisCopy = new(buffer) SplineViewPhase(*this);
+    char * _Nonnull payloadFromDestruction = thisCopy->_destructiveProjectEnumData();
+    return swift::_impl::implClassFor<SplineViewError>::type::returnNewValue([&](char * _Nonnull result) SWIFT_INLINE_THUNK_ATTRIBUTES {
+      swift::_impl::implClassFor<SplineViewError>::type::initializeWithTake(result, payloadFromDestruction);
+    });
+  }
+  SWIFT_INLINE_THUNK SplineViewPhase SplineViewPhase::_impl_empty::operator()() const {
+    auto result = SplineViewPhase::_make();
+    result._destructiveInjectEnumTag(_impl::$s13SplineRuntime0A9ViewPhaseO5emptyyA2CmFWC);
+    return result;
+  }
+  SWIFT_INLINE_THUNK  bool SplineViewPhase::isEmpty() const {
+    return *this == SplineViewPhase::empty;
+  }
+  SWIFT_INLINE_THUNK  bool SplineViewPhase::isUnknownDefault() const {
+    return *this == SplineViewPhase::unknownDefault;
+  }
+  SWIFT_INLINE_THUNK swift::Optional<SplineContent> SplineViewPhase::getContent() const {
+  return swift::_impl::_impl_Optional<SplineContent>::returnNewValue([&](char * _Nonnull result) SWIFT_INLINE_THUNK_ATTRIBUTES {
+    _impl::$s13SplineRuntime0A9ViewPhaseO7contentAA0A7ContentVSgvg(result, _getOpaquePointer());
+  });
+  }
+
+class SplineView { } SWIFT_UNAVAILABLE_MSG("generic requirements for generic struct 'SplineView' can not yet be represented in C++");
 
 } // namespace SplineRuntime
 

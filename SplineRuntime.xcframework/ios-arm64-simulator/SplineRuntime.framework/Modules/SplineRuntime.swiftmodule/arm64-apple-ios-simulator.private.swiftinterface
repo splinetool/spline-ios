@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Combine
+import CoreGraphics
 import DeveloperToolsSupport
 import Foundation
 import Metal
@@ -18,21 +19,45 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import simd
-@available(iOS 16.0, macCatalyst 16.0, *)
-public struct SplineView : SwiftUI.View {
-  public init(sceneFileURL: Foundation.URL) throws
+public struct SplineContent : SwiftUI.View {
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s13SplineRuntime0A4ViewV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s13SplineRuntime0A7ContentV4bodyQrvp", 0) __
 }
-public enum AppError : Swift.Error {
-  case unsupportedDevice
-  public static func == (a: SplineRuntime.AppError, b: SplineRuntime.AppError) -> Swift.Bool
+public enum SplineViewPhase {
+  case empty
+  case success(SplineRuntime.SplineContent)
+  case failure(SplineRuntime.SplineViewError)
+  public var content: SplineRuntime.SplineContent? {
+    get
+  }
+  public var error: (any Swift.Error)? {
+    get
+  }
+}
+@available(iOS 16.0, macCatalyst 16.0, macOS 13.0, *)
+public struct SplineView<Content> : SwiftUI.View where Content : SwiftUI.View {
+  public init(sceneFileURL: Foundation.URL?, @SwiftUI.ViewBuilder content: @escaping (SplineRuntime.SplineViewPhase) -> Content = { $0.content })
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13SplineRuntime0A4ViewV4bodyQrvp", 0) __<Content>
+}
+public enum SplineViewError : Foundation.LocalizedError {
+  case deviceUnsupported
+  case fileUnreachable
+  case fileUnknownFormat
+  case fileOldFormat
+  case fileNewFormat
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: SplineRuntime.SplineViewError, b: SplineRuntime.SplineViewError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
 }
-extension SplineRuntime.AppError : Swift.Equatable {}
-extension SplineRuntime.AppError : Swift.Hashable {}
+extension SplineRuntime.SplineViewError : Swift.Equatable {}
+extension SplineRuntime.SplineViewError : Swift.Hashable {}
