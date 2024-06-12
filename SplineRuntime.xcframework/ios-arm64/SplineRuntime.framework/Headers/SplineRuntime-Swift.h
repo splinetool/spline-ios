@@ -5844,6 +5844,8 @@ namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") 
 
 
 
+
+
   SWIFT_INLINE_THUNK SplineViewError SplineViewError::_impl_deviceUnsupported::operator()() const {
     auto result = SplineViewError::_make();
     result._destructiveInjectEnumTag(_impl::$s13SplineRuntime0A9ViewErrorO17deviceUnsupportedyA2CmFWC);

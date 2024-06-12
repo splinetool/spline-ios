@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<data>
-		qFmS9Etrzh2rGzxMAr3nQz6Ry0k=
+		7Ah780R+U6gzpO47/Ce0P4YE2Xg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AWedQD27RQL9J04oiU0OzrETphI=
+		yeOmvXjKVqXR8a+PBiQwu9F7jAw=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.abi.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<data>
-		lbW15e+3P960jXUlS+pRFHH2BPI=
+		gWG+Eg3+Qp21OSELj1NEn+7/9dI=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<data>
-		lbW15e+3P960jXUlS+pRFHH2BPI=
+		gWG+Eg3+Qp21OSELj1NEn+7/9dI=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<data>
-		/rStZ7PJn/FMlTtbl5yLZz+82+Y=
+		0EGT9i/ZkHjvdyGaVq7/F3vRqh4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3j0jkMw2Hcu47ieDlkScySTlyXb/zcLfrF7ssVHF/xk=
+			w123m0U7PYsjvg3kp9A6GZK3X1nj1SyO65PPiUyLBMk=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.abi.json</key>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gcxo1xQVw4B4nE4csFAUL1JnqvKXnCFhxEsoC6OMFjE=
+			6CpWujvVBmCueH1SFhE3UjvWu4JX0p8VFrx567RILnQ=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftdoc</key>
@@ -90,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gcxo1xQVw4B4nE4csFAUL1JnqvKXnCFhxEsoC6OMFjE=
+			6CpWujvVBmCueH1SFhE3UjvWu4JX0p8VFrx567RILnQ=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dsyFJmcq8NMrEd24LzMp3Mi2yYRqFaGS7174Hw4/Hsc=
+			MrUoL6Rz8/F+fZyn7QIHvNGl3226sJX5UeoDvU8VCU4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

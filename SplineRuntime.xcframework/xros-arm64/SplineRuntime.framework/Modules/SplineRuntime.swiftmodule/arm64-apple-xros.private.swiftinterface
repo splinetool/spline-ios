@@ -5,6 +5,7 @@
 import AVFoundation
 import Combine
 import CoreGraphics
+import CoreText
 import DeveloperToolsSupport
 import Foundation
 import Metal
