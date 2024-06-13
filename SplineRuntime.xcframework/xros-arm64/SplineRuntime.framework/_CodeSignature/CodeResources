@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<data>
-		7Ah780R+U6gzpO47/Ce0P4YE2Xg=
+		V5jrfdqQYn3bULoaStgGViT2vko=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ieill8UmdNejK5/kKBOtCIuPyMk=
+		6KxWwAnj7uBPRUntxN2oqwmyv0I=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<data>
-		gWG+Eg3+Qp21OSELj1NEn+7/9dI=
+		dXuUBRoTQFYPXLWS+FHSLYnDFIA=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<data>
-		tQpxSH5hqYjdsMNL+ZSgDtkoims=
+		r4UxNzv6DuZsAS03pH66XR4V+Tg=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<data>
-		gWG+Eg3+Qp21OSELj1NEn+7/9dI=
+		dXuUBRoTQFYPXLWS+FHSLYnDFIA=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<data>
-		jumbeZSbGfTs1Vp7ZxmK5aFWk2U=
+		9MsO12ce5X6ca8fa+T4sjL+WDdQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w123m0U7PYsjvg3kp9A6GZK3X1nj1SyO65PPiUyLBMk=
+			Jz5CthXIOKeIiSOc2f8UZ7ejn2gLKyeoMGtdbAqfZUU=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.abi.json</key>
@@ -76,28 +76,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6CpWujvVBmCueH1SFhE3UjvWu4JX0p8VFrx567RILnQ=
+			ku+hrluwL0gUqH+AqJifZ3f6rVurVKjo1jZu3pAjm2g=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hQ/Hl6FD+PTdS3j1AIVyVApZaEGddVGdR5uvEZ9ah9A=
+			AStGR3REQlS21IAHYX7WeqyXKdVtlTIY7zZOgzXjQqM=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6CpWujvVBmCueH1SFhE3UjvWu4JX0p8VFrx567RILnQ=
+			ku+hrluwL0gUqH+AqJifZ3f6rVurVKjo1jZu3pAjm2g=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xvuJKuEsH5FC19zeD7bIyfFg9Dl2NGqX6DO4he2fkW0=
+			SXH/Z2BC4/SFe3c0NfRMliuKRYf7H7nJxPUkm5c3bb4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

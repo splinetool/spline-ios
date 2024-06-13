@@ -24,6 +24,25 @@ import _RealityKit_SwiftUI
 import _StringProcessing
 import _SwiftConcurrencyShims
 import simd
+@_hasMissingDesignatedInitializers final public class DisplayLink : Combine.Publisher {
+  public typealias Output = SplineRuntime.DisplayLink.Frame
+  public typealias Failure = Swift.Never
+  final public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == Swift.Never, S.Input == SplineRuntime.DisplayLink.Frame
+  @objc deinit
+}
+extension SplineRuntime.DisplayLink {
+  public struct Frame {
+    public var timestamp: Foundation.TimeInterval
+    public var duration: Foundation.TimeInterval
+  }
+}
+extension SplineRuntime.DisplayLink {
+  @available(iOS 13.0, tvOS 13.0, macOS 10.15, *)
+  convenience public init()
+}
+extension SplineRuntime.DisplayLink {
+  public static let shared: SplineRuntime.DisplayLink
+}
 public struct SplineVolumetricContent : SwiftUI.View {
   public init(sceneFileURL: Foundation.URL?)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {

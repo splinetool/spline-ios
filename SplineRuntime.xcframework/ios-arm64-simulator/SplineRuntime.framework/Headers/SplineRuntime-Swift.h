@@ -5105,6 +5105,80 @@ namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") 
 
 
 
+class SWIFT_SYMBOL("s:13SplineRuntime11DisplayLinkC") DisplayLink;
+} // end namespace 
+
+namespace swift SWIFT_PRIVATE_ATTR {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc++17-extensions"
+template<>
+static inline const constexpr bool isUsableInGenericContext<SplineRuntime::DisplayLink> = true;
+#pragma clang diagnostic pop
+} // namespace swift
+
+namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
+namespace _impl {
+
+class _impl_DisplayLink;
+// Type metadata accessor for DisplayLink
+SWIFT_EXTERN swift::_impl::MetadataResponseTy $s13SplineRuntime11DisplayLinkCMa(swift::_impl::MetadataRequestTy) SWIFT_NOEXCEPT SWIFT_CALL;
+
+
+} // namespace _impl
+
+class SWIFT_SYMBOL("s:13SplineRuntime11DisplayLinkC") DisplayLink final : public swift::_impl::RefCountedClass {
+public:
+  using RefCountedClass::RefCountedClass;
+  using RefCountedClass::operator=;
+protected:
+  SWIFT_INLINE_THUNK DisplayLink(void * _Nonnull ptr) noexcept : RefCountedClass(ptr) {}
+private:
+  friend class _impl::_impl_DisplayLink;
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc++17-extensions"
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wreserved-identifier"
+  typedef char $s13SplineRuntime11DisplayLinkCD;
+  static inline constexpr $s13SplineRuntime11DisplayLinkCD __swift_mangled_name = 0;
+#pragma clang diagnostic pop
+#pragma clang diagnostic pop
+};
+
+namespace _impl {
+
+class _impl_DisplayLink {
+public:
+static SWIFT_INLINE_THUNK DisplayLink makeRetained(void * _Nonnull ptr) noexcept { return DisplayLink(ptr); }
+};
+
+} // namespace _impl
+
+} // end namespace 
+
+namespace swift SWIFT_PRIVATE_ATTR {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc++17-extensions"
+template<>
+struct TypeMetadataTrait<SplineRuntime::DisplayLink> {
+  static SWIFT_INLINE_THUNK void * _Nonnull getTypeMetadata() {
+    return SplineRuntime::_impl::$s13SplineRuntime11DisplayLinkCMa(0)._0;
+  }
+};
+namespace _impl{
+template<>
+struct implClassFor<SplineRuntime::DisplayLink> { using type = SplineRuntime::_impl::_impl_DisplayLink; };
+} // namespace
+#pragma clang diagnostic pop
+} // namespace swift
+
+namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") {
+
+
+
+
+
+
+
 
 
 
