@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		p/4n519varbEViM05PnVuwWyWLo=
+		1pYkjAn76OHUbf4wOEH2zhKnjRc=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		xf9J0yc3Ap9FnLs6JZ0pDZNHOBM=
+		kaagrJhrgC1rTtV7PbxgvB3RtYE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dbC5vhGxGKEhFK/I9hI8+OuMwuOSkd1MT1S+yD8Kcno=
+			10mGdKrvumOACjXPUrqNVAOTSyEKSjTy4hYucvlmOTc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

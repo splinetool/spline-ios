@@ -4,54 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Headers/SplineRuntime-Swift.h</key>
-		<data>
-		QWomSg+D4OYYdAp1WnSpBZ9puAA=
-		</data>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
-		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
-		</data>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
-		<data>
-		MnMH4EaAV6JhlzI4rd425+vaDGM=
-		</data>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
-		<data>
-		+4ho/g3/tE0cZu4Z8p6YlWWFakM=
-		</data>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
-		<data>
-		MnMH4EaAV6JhlzI4rd425+vaDGM=
-		</data>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/module.modulemap</key>
-		<data>
-		W+vpjadMjPZ2jvvWe6obAnw6skQ=
-		</data>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/PrivateHeaders/SplineRuntime.h</key>
-		<data>
-		w9o+Y9215aPm5ozY9qmfAwGDo3w=
-		</data>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/Assets.car</key>
-		<data>
-		fZcLPGOfyUoTeZQ1CM+t4zUFCgE=
-		</data>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/Info.plist</key>
-		<data>
-		K+Jor/xUcOvzPNFdWi8QKmjsfbE=
-		</data>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/default.metallib</key>
-		<data>
-		/SiCNGo0fvV+ggZ1HMYL3YqFD0I=
-		</data>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/SplineRuntime</key>
-		<data>
-		F3f4xHujMmqx+NV02j/fBmrdl+o=
-		</data>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/_CodeSignature/CodeResources</key>
-		<data>
-		jWXjYhyz7oy/OMNzhjcm0T+LkHs=
-		</data>
 		<key>ios-arm64-simulator/SplineRuntime.framework/Assets.car</key>
 		<data>
 		B9iYdeqsC9hhvtxw/yIHmMwJeVw=
@@ -62,7 +14,7 @@
 		</data>
 		<key>ios-arm64-simulator/SplineRuntime.framework/Info.plist</key>
 		<data>
-		lFs2wzsiL6T99DynOsaDSbF4CNY=
+		0GoBp0CIIc4TpWXWVLIWlMKsSs4=
 		</data>
 		<key>ios-arm64-simulator/SplineRuntime.framework/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -90,11 +42,11 @@
 		</data>
 		<key>ios-arm64-simulator/SplineRuntime.framework/SplineRuntime</key>
 		<data>
-		B8b+Yv25s6Qu931PRGvni4e1cks=
+		qQPGPXeo/zKI8NBp3LNeBm5lgNI=
 		</data>
 		<key>ios-arm64-simulator/SplineRuntime.framework/_CodeSignature/CodeResources</key>
 		<data>
-		40CSqMA+3RRD+WX9vngt+WiA/QQ=
+		XOTtKRqm6AFJM6hTSwQmR9TLaF4=
 		</data>
 		<key>ios-arm64-simulator/SplineRuntime.framework/default.metallib</key>
 		<data>
@@ -110,7 +62,7 @@
 		</data>
 		<key>ios-arm64/SplineRuntime.framework/Info.plist</key>
 		<data>
-		Orqt8dkOBAbRYw+TjY/1ET4XqTk=
+		GC1ZaxdJRUW9BxGLos48ft5okwc=
 		</data>
 		<key>ios-arm64/SplineRuntime.framework/Modules/SplineRuntime.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -138,63 +90,143 @@
 		</data>
 		<key>ios-arm64/SplineRuntime.framework/SplineRuntime</key>
 		<data>
-		EqAaN/HRuhM4t2cj+kewtWnclDc=
+		mHLXoqYOoCzmaeWoYCkeEyu1l+M=
 		</data>
 		<key>ios-arm64/SplineRuntime.framework/_CodeSignature/CodeResources</key>
 		<data>
-		GopzHMNKQmW8wlSSVR6FXZ7iqHo=
+		7E4wUVHG/DtgJi4cynVhEbUCC78=
 		</data>
 		<key>ios-arm64/SplineRuntime.framework/default.metallib</key>
 		<data>
 		599+w5nJw3GBU5KV1DXx42pGBq0=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Headers/SplineRuntime-Swift.h</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Headers/SplineRuntime-Swift.h</key>
 		<data>
-		iE0J8+QFRF5+b13OS6mkfhJLOEM=
+		oW4/yGieBsy6QModpjtdGFaqm0U=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.abi.json</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<data>
 		FSPnLbho3G+LL9smI3XgVOqBIQ4=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
-		lt1aBiN+l9yOqbM84JyrtSYefXw=
+		MnMH4EaAV6JhlzI4rd425+vaDGM=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.swiftdoc</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<data>
-		cJ+d+dQ6cHP7XkRsVdy14xK6iBk=
+		+4ho/g3/tE0cZu4Z8p6YlWWFakM=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.swiftinterface</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<data>
-		lt1aBiN+l9yOqbM84JyrtSYefXw=
+		MnMH4EaAV6JhlzI4rd425+vaDGM=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
+		<data>
+		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
+		<data>
+		uucZsLD+k52e0+PAwrLgLQ0zkoE=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
+		<data>
+		lf6gM2mexi+RJQyEq7KAVHtI8Bs=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
+		<data>
+		uucZsLD+k52e0+PAwrLgLQ0zkoE=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
 		W+vpjadMjPZ2jvvWe6obAnw6skQ=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/PrivateHeaders/SplineRuntime.h</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/PrivateHeaders/SplineRuntime.h</key>
 		<data>
 		w9o+Y9215aPm5ozY9qmfAwGDo3w=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Resources/Assets.car</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/Assets.car</key>
+		<data>
+		fZcLPGOfyUoTeZQ1CM+t4zUFCgE=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/Info.plist</key>
+		<data>
+		4bOUjtyUjVZNU3mFEWvZVv4k6jk=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/default.metallib</key>
+		<data>
+		/SiCNGo0fvV+ggZ1HMYL3YqFD0I=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/SplineRuntime</key>
+		<data>
+		WXgzS5O4alqGjnDN25hlHvytD6s=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/_CodeSignature/CodeResources</key>
+		<data>
+		fE0DA+1RDGRaWqEbS0yuUrl7T/g=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Headers/SplineRuntime-Swift.h</key>
+		<data>
+		8rJlFs3NlKSh2yDGRB9BGcvdrRo=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.abi.json</key>
+		<data>
+		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
+		<data>
+		lt1aBiN+l9yOqbM84JyrtSYefXw=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.swiftdoc</key>
+		<data>
+		cJ+d+dQ6cHP7XkRsVdy14xK6iBk=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.swiftinterface</key>
+		<data>
+		lt1aBiN+l9yOqbM84JyrtSYefXw=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.abi.json</key>
+		<data>
+		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
+		<data>
+		DbP7xEiel4mfuB2LKn8/Bm9SguA=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.swiftdoc</key>
+		<data>
+		zQpEOIwz89sRNwXiYEK86aKeH1s=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.swiftinterface</key>
+		<data>
+		DbP7xEiel4mfuB2LKn8/Bm9SguA=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/module.modulemap</key>
+		<data>
+		W+vpjadMjPZ2jvvWe6obAnw6skQ=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/PrivateHeaders/SplineRuntime.h</key>
+		<data>
+		w9o+Y9215aPm5ozY9qmfAwGDo3w=
+		</data>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Resources/Assets.car</key>
 		<data>
 		cu9wmSMMEssGrHpMRmYjY0gO008=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Resources/Info.plist</key>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		35sJigCJuZOXX16vyIQiaObQ3mM=
+		uJGD1aYhtA1DNJux+1aMH1o+YxI=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Resources/default.metallib</key>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Resources/default.metallib</key>
 		<data>
 		KzbhMrLu3FocOEzDUEKKEsMOa8A=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/SplineRuntime</key>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/SplineRuntime</key>
 		<data>
-		JkzWFm94COuwjT/x3l30hMnZ9/k=
+		DFAPHeumaXCnmErqBxY01lhvZlI=
 		</data>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/_CodeSignature/CodeResources</key>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
-		f7LASIzMWx1IdVDuTa6SewHXsfQ=
+		vOgL3hce5fwa/sNPZgHRKm/IhNY=
 		</data>
 		<key>xros-arm64-simulator/SplineRuntime.framework/Assets.car</key>
 		<data>
@@ -206,7 +238,7 @@
 		</data>
 		<key>xros-arm64-simulator/SplineRuntime.framework/Info.plist</key>
 		<data>
-		p/4n519varbEViM05PnVuwWyWLo=
+		1pYkjAn76OHUbf4wOEH2zhKnjRc=
 		</data>
 		<key>xros-arm64-simulator/SplineRuntime.framework/Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
@@ -234,11 +266,11 @@
 		</data>
 		<key>xros-arm64-simulator/SplineRuntime.framework/SplineRuntime</key>
 		<data>
-		2979OgeeLrZ/6/Uw8gNFczo3jQQ=
+		3lcCDsfCc40Ev39mspoX+wr2N54=
 		</data>
 		<key>xros-arm64-simulator/SplineRuntime.framework/_CodeSignature/CodeResources</key>
 		<data>
-		4O+EGMWsgMz+PC6WzS6OLut5cHc=
+		zs21CJgdRWIV6MkUoHSlI923zBQ=
 		</data>
 		<key>xros-arm64-simulator/SplineRuntime.framework/default.metallib</key>
 		<data>
@@ -254,7 +286,7 @@
 		</data>
 		<key>xros-arm64/SplineRuntime.framework/Info.plist</key>
 		<data>
-		fWin6DAubAkTQ50yGDjp/GAtfFA=
+		6dyFJ7KUsjrRJxiNYjmJJeuurY0=
 		</data>
 		<key>xros-arm64/SplineRuntime.framework/Modules/SplineRuntime.swiftmodule/arm64-apple-xros.abi.json</key>
 		<data>
@@ -282,11 +314,11 @@
 		</data>
 		<key>xros-arm64/SplineRuntime.framework/SplineRuntime</key>
 		<data>
-		6Nzf5YuzZTSuFNeeo68gLV9A2Zs=
+		7tyjnzZWDDsh0eudLTWMTQGgv50=
 		</data>
 		<key>xros-arm64/SplineRuntime.framework/_CodeSignature/CodeResources</key>
 		<data>
-		xnuHFRM2Yz12VdNYJrmQF1BmErA=
+		LOdHkO827cJ+Sy2Zckx3Zz0bRgc=
 		</data>
 		<key>xros-arm64/SplineRuntime.framework/default.metallib</key>
 		<data>
@@ -295,168 +327,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Headers</key>
-		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Headers</string>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Modules</key>
-		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Modules</string>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/PrivateHeaders</key>
-		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/PrivateHeaders</string>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Resources</key>
-		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Resources</string>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/SplineRuntime</key>
-		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/SplineRuntime</string>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Headers/SplineRuntime-Swift.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QWomSg+D4OYYdAp1WnSpBZ9puAA=
-			</data>
-			<key>hash2</key>
-			<data>
-			i3Sm/JvENLZhoxXNJnxGp/fVY8O927nTcquy7WRbfzQ=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FSPnLbho3G+LL9smI3XgVOqBIQ4=
-			</data>
-			<key>hash2</key>
-			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MnMH4EaAV6JhlzI4rd425+vaDGM=
-			</data>
-			<key>hash2</key>
-			<data>
-			RBhj35hwv+SDVXLOVmaxxAJIsrGYx2EPXKkDOtIgjiw=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+4ho/g3/tE0cZu4Z8p6YlWWFakM=
-			</data>
-			<key>hash2</key>
-			<data>
-			YpWGi1iF71U9a63jSe8cZlqEyawC0byHbpV6o1s6mEg=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MnMH4EaAV6JhlzI4rd425+vaDGM=
-			</data>
-			<key>hash2</key>
-			<data>
-			RBhj35hwv+SDVXLOVmaxxAJIsrGYx2EPXKkDOtIgjiw=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			W+vpjadMjPZ2jvvWe6obAnw6skQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			JBYDvStULgZ+d539YFzB4INTJv23oVdxaFf+8m6bG9c=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/PrivateHeaders/SplineRuntime.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			w9o+Y9215aPm5ozY9qmfAwGDo3w=
-			</data>
-			<key>hash2</key>
-			<data>
-			gdrADAGlA/J8UsNXX9mhWD8BGWhNfjEoIF6+5FGrH0c=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/Assets.car</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fZcLPGOfyUoTeZQ1CM+t4zUFCgE=
-			</data>
-			<key>hash2</key>
-			<data>
-			HXdjoC3EXY/n86VCOOgxBX2bxkbmeYuwodVV2LS63UA=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			K+Jor/xUcOvzPNFdWi8QKmjsfbE=
-			</data>
-			<key>hash2</key>
-			<data>
-			MMexvTRzW0fasmwWqnv2dGj4Au5hpDTrmuZgMzPbRx8=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/default.metallib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/SiCNGo0fvV+ggZ1HMYL3YqFD0I=
-			</data>
-			<key>hash2</key>
-			<data>
-			4wIhML/JlhQwUrS3+Rcq7iSUCnLOT9SbskKLEDCAcbI=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/SplineRuntime</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			F3f4xHujMmqx+NV02j/fBmrdl+o=
-			</data>
-			<key>hash2</key>
-			<data>
-			8rsLl5fGz4W/gisbU0Q3ewEKmna6wRadksg4OFYME9k=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/A/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jWXjYhyz7oy/OMNzhjcm0T+LkHs=
-			</data>
-			<key>hash2</key>
-			<data>
-			3utYvsMYr7Pe1mgUgQ8CkO8MuJ5EG/7h4eQYSEdrfSI=
-			</data>
-		</dict>
-		<key>ios-arm64-maccatalyst/SplineRuntime.framework/Versions/Current</key>
-		<dict>
-			<key>symlink</key>
-			<string>A</string>
-		</dict>
 		<key>ios-arm64-simulator/SplineRuntime.framework/Assets.car</key>
 		<dict>
 			<key>hash</key>
@@ -483,11 +353,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lFs2wzsiL6T99DynOsaDSbF4CNY=
+			0GoBp0CIIc4TpWXWVLIWlMKsSs4=
 			</data>
 			<key>hash2</key>
 			<data>
-			HikxHktTL8XrmKW4WhcFEiPFJg67JgNjCn+sO4XGYow=
+			UGQ664IyzT5lsI6tZHbiCPU9QEG9w9dJqlE9GWKz8YU=
 			</data>
 		</dict>
 		<key>ios-arm64-simulator/SplineRuntime.framework/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -560,22 +430,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B8b+Yv25s6Qu931PRGvni4e1cks=
+			qQPGPXeo/zKI8NBp3LNeBm5lgNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8hPkfqZaikC/uO8ALJ+ew8Luqe11gNpm/yJOm1neH8I=
+			TY18lX/I4RoQIEuSWKtSveqMEkJpNYpahOaGiv2a8c8=
 			</data>
 		</dict>
 		<key>ios-arm64-simulator/SplineRuntime.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			40CSqMA+3RRD+WX9vngt+WiA/QQ=
+			XOTtKRqm6AFJM6hTSwQmR9TLaF4=
 			</data>
 			<key>hash2</key>
 			<data>
-			njMjBO5hbS2czm2OyvhELFiEqQQ/kdty/X9KiGVQDx0=
+			+jndGtM+UNcmbtgxIrF8xDB2uKJtWnrT2vuL8z65A9s=
 			</data>
 		</dict>
 		<key>ios-arm64-simulator/SplineRuntime.framework/default.metallib</key>
@@ -615,11 +485,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Orqt8dkOBAbRYw+TjY/1ET4XqTk=
+			GC1ZaxdJRUW9BxGLos48ft5okwc=
 			</data>
 			<key>hash2</key>
 			<data>
-			1swS7rri1oACBz8MDxq5lVdiXhAUmxTEta9df84cFmY=
+			zIggosLbq9eJ/+PNE+wZZN7V/9tILU+DR7SJj13gT3s=
 			</data>
 		</dict>
 		<key>ios-arm64/SplineRuntime.framework/Modules/SplineRuntime.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -692,22 +562,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EqAaN/HRuhM4t2cj+kewtWnclDc=
+			mHLXoqYOoCzmaeWoYCkeEyu1l+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			cSUWKcSjrv6EiPA+G+eudS+VqnCWRxDF02Sl7EpOibY=
+			AF2z+qRcutMD8aDlpbqZKy6YpxJcFpuqTHyPDB0maps=
 			</data>
 		</dict>
 		<key>ios-arm64/SplineRuntime.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GopzHMNKQmW8wlSSVR6FXZ7iqHo=
+			7E4wUVHG/DtgJi4cynVhEbUCC78=
 			</data>
 			<key>hash2</key>
 			<data>
-			7JFf45Rl2JihQVRZLFm3y6j+3lunui9EXCqJRw/QDMo=
+			2cWmCEHAlkZcjGKBZNcyzbOscMuP/cDRtqQDST1kR1A=
 			</data>
 		</dict>
 		<key>ios-arm64/SplineRuntime.framework/default.metallib</key>
@@ -721,43 +591,43 @@
 			advp29L6c/Wu+wsXgnSEBH6XPiUBNV5/2g8WfXMnf+o=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Headers</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Headers</key>
 		<dict>
 			<key>symlink</key>
 			<string>Versions/Current/Headers</string>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Modules</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Modules</key>
 		<dict>
 			<key>symlink</key>
 			<string>Versions/Current/Modules</string>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/PrivateHeaders</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/PrivateHeaders</key>
 		<dict>
 			<key>symlink</key>
 			<string>Versions/Current/PrivateHeaders</string>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Resources</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Resources</key>
 		<dict>
 			<key>symlink</key>
 			<string>Versions/Current/Resources</string>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/SplineRuntime</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/SplineRuntime</key>
 		<dict>
 			<key>symlink</key>
 			<string>Versions/Current/SplineRuntime</string>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Headers/SplineRuntime-Swift.h</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Headers/SplineRuntime-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iE0J8+QFRF5+b13OS6mkfhJLOEM=
+			oW4/yGieBsy6QModpjtdGFaqm0U=
 			</data>
 			<key>hash2</key>
 			<data>
-			38lKNCiSmKIevM6R0qMuCvaF0OiRYxeu8aYEzpJqITM=
+			afDz9TUbrfa73c2P3S6WWLP8W5aGoPGbiRVGa7mDdAw=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.abi.json</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -768,40 +638,84 @@
 			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lt1aBiN+l9yOqbM84JyrtSYefXw=
+			MnMH4EaAV6JhlzI4rd425+vaDGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			FtqORwosMT4v7ryakhSArV5+et97R+2IMI855/WS5D4=
+			RBhj35hwv+SDVXLOVmaxxAJIsrGYx2EPXKkDOtIgjiw=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.swiftdoc</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cJ+d+dQ6cHP7XkRsVdy14xK6iBk=
+			+4ho/g3/tE0cZu4Z8p6YlWWFakM=
 			</data>
 			<key>hash2</key>
 			<data>
-			kJlQEkD6jWO9Mh9QDgP/3xIOpX1MWD1mITR0NjvX5Ew=
+			YpWGi1iF71U9a63jSe8cZlqEyawC0byHbpV6o1s6mEg=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.swiftinterface</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lt1aBiN+l9yOqbM84JyrtSYefXw=
+			MnMH4EaAV6JhlzI4rd425+vaDGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			FtqORwosMT4v7ryakhSArV5+et97R+2IMI855/WS5D4=
+			RBhj35hwv+SDVXLOVmaxxAJIsrGYx2EPXKkDOtIgjiw=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FSPnLbho3G+LL9smI3XgVOqBIQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uucZsLD+k52e0+PAwrLgLQ0zkoE=
+			</data>
+			<key>hash2</key>
+			<data>
+			VanHyBeAfzxbsCCON9MYs1QUeqqstPNzOY0YxNr6sPg=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lf6gM2mexi+RJQyEq7KAVHtI8Bs=
+			</data>
+			<key>hash2</key>
+			<data>
+			kk9xvWvfIydLsszlIH4azQAompSXkMN77M+KZxiaUl8=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uucZsLD+k52e0+PAwrLgLQ0zkoE=
+			</data>
+			<key>hash2</key>
+			<data>
+			VanHyBeAfzxbsCCON9MYs1QUeqqstPNzOY0YxNr6sPg=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -812,7 +726,7 @@
 			JBYDvStULgZ+d539YFzB4INTJv23oVdxaFf+8m6bG9c=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/PrivateHeaders/SplineRuntime.h</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/PrivateHeaders/SplineRuntime.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -823,7 +737,213 @@
 			gdrADAGlA/J8UsNXX9mhWD8BGWhNfjEoIF6+5FGrH0c=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Resources/Assets.car</key>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fZcLPGOfyUoTeZQ1CM+t4zUFCgE=
+			</data>
+			<key>hash2</key>
+			<data>
+			HXdjoC3EXY/n86VCOOgxBX2bxkbmeYuwodVV2LS63UA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4bOUjtyUjVZNU3mFEWvZVv4k6jk=
+			</data>
+			<key>hash2</key>
+			<data>
+			rqf3VUCbFC9hTtWzz8oVZyZsOEc7+oVbfvjb2u3vU5w=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/Resources/default.metallib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/SiCNGo0fvV+ggZ1HMYL3YqFD0I=
+			</data>
+			<key>hash2</key>
+			<data>
+			4wIhML/JlhQwUrS3+Rcq7iSUCnLOT9SbskKLEDCAcbI=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/SplineRuntime</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WXgzS5O4alqGjnDN25hlHvytD6s=
+			</data>
+			<key>hash2</key>
+			<data>
+			NH78Y0IlfhUlnAk/jIpcVEbBj0vAlLVaQnSW5bGYP6Q=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/A/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fE0DA+1RDGRaWqEbS0yuUrl7T/g=
+			</data>
+			<key>hash2</key>
+			<data>
+			hSQEl0EdziEiMKnQpXux0cxaF7pLaM+2Pk49agr7jIc=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/SplineRuntime.framework/Versions/Current</key>
+		<dict>
+			<key>symlink</key>
+			<string>A</string>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Headers</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/Headers</string>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Modules</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/Modules</string>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/PrivateHeaders</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/PrivateHeaders</string>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Resources</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/Resources</string>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/SplineRuntime</key>
+		<dict>
+			<key>symlink</key>
+			<string>Versions/Current/SplineRuntime</string>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Headers/SplineRuntime-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8rJlFs3NlKSh2yDGRB9BGcvdrRo=
+			</data>
+			<key>hash2</key>
+			<data>
+			voYBBA/PR9XlzEKEWyQr2F0jJmLfNf7TPad3WLRvM24=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FSPnLbho3G+LL9smI3XgVOqBIQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lt1aBiN+l9yOqbM84JyrtSYefXw=
+			</data>
+			<key>hash2</key>
+			<data>
+			FtqORwosMT4v7ryakhSArV5+et97R+2IMI855/WS5D4=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cJ+d+dQ6cHP7XkRsVdy14xK6iBk=
+			</data>
+			<key>hash2</key>
+			<data>
+			kJlQEkD6jWO9Mh9QDgP/3xIOpX1MWD1mITR0NjvX5Ew=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/arm64-apple-macos.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lt1aBiN+l9yOqbM84JyrtSYefXw=
+			</data>
+			<key>hash2</key>
+			<data>
+			FtqORwosMT4v7ryakhSArV5+et97R+2IMI855/WS5D4=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FSPnLbho3G+LL9smI3XgVOqBIQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DbP7xEiel4mfuB2LKn8/Bm9SguA=
+			</data>
+			<key>hash2</key>
+			<data>
+			/obr8R/N8ojOndcGml6LCsP3fjC6lWd50DmkvzueUwQ=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zQpEOIwz89sRNwXiYEK86aKeH1s=
+			</data>
+			<key>hash2</key>
+			<data>
+			oG48EjIJ23wzmZYUfUGnMtmoFD5X8wmka2DrtpfpFrM=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DbP7xEiel4mfuB2LKn8/Bm9SguA=
+			</data>
+			<key>hash2</key>
+			<data>
+			/obr8R/N8ojOndcGml6LCsP3fjC6lWd50DmkvzueUwQ=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			W+vpjadMjPZ2jvvWe6obAnw6skQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			JBYDvStULgZ+d539YFzB4INTJv23oVdxaFf+8m6bG9c=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/PrivateHeaders/SplineRuntime.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w9o+Y9215aPm5ozY9qmfAwGDo3w=
+			</data>
+			<key>hash2</key>
+			<data>
+			gdrADAGlA/J8UsNXX9mhWD8BGWhNfjEoIF6+5FGrH0c=
+			</data>
+		</dict>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Resources/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -834,18 +954,18 @@
 			Cg/ID99dkMkz14JrGrS7waKWUqEAu5/sWI2GFSdM3ts=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Resources/Info.plist</key>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			35sJigCJuZOXX16vyIQiaObQ3mM=
+			uJGD1aYhtA1DNJux+1aMH1o+YxI=
 			</data>
 			<key>hash2</key>
 			<data>
-			lmCgc2SsewVuYBglkeHeTjULFJN8RjgpJoLREGAxO/g=
+			3izmcsF+9B/4pyCuD5Gw59rVVdC+NpH1zve4xetFh/g=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/Resources/default.metallib</key>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/Resources/default.metallib</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -856,29 +976,29 @@
 			tXjpxlwSttAAD41AyZq1y4tYxgJ9j67GY/rC3R+xwmA=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/SplineRuntime</key>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/SplineRuntime</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JkzWFm94COuwjT/x3l30hMnZ9/k=
+			DFAPHeumaXCnmErqBxY01lhvZlI=
 			</data>
 			<key>hash2</key>
 			<data>
-			6/ZflatdZs//HcnLpcmPj7Dp5hU/ylQAteq0sM9zOqo=
+			qW9fC45sSveX/oJYdky33/CRwnkAQxw2gQE+gZ5VNbE=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/A/_CodeSignature/CodeResources</key>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f7LASIzMWx1IdVDuTa6SewHXsfQ=
+			vOgL3hce5fwa/sNPZgHRKm/IhNY=
 			</data>
 			<key>hash2</key>
 			<data>
-			bJ4KftTjYOQXeiYuGTLUkCshQE6VgDIkeOmmtp2coaE=
+			D4RC+Fc+XMHJEKykk6toYAlA5jEKB1j7dn0zwsn7bEE=
 			</data>
 		</dict>
-		<key>macos-arm64/SplineRuntime.framework/Versions/Current</key>
+		<key>macos-arm64_x86_64/SplineRuntime.framework/Versions/Current</key>
 		<dict>
 			<key>symlink</key>
 			<string>A</string>
@@ -909,11 +1029,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p/4n519varbEViM05PnVuwWyWLo=
+			1pYkjAn76OHUbf4wOEH2zhKnjRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			PbxEmQeWbM5nv7ZQhZfUHUhrd9uVQF0c93gSZuKwqkg=
+			Wlha9o2PuxU53hW2ftzw/kV1duHELVmA2e3DG31UEqU=
 			</data>
 		</dict>
 		<key>xros-arm64-simulator/SplineRuntime.framework/Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
@@ -986,22 +1106,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2979OgeeLrZ/6/Uw8gNFczo3jQQ=
+			3lcCDsfCc40Ev39mspoX+wr2N54=
 			</data>
 			<key>hash2</key>
 			<data>
-			taL0W5rPW6nJAN+qD6i+13t+mpMX6YRFGNU78BiElNw=
+			ODnSR4k4TVd0zLnFeI8wOVuBuaSpPRqo2g4YL9c9vjA=
 			</data>
 		</dict>
 		<key>xros-arm64-simulator/SplineRuntime.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4O+EGMWsgMz+PC6WzS6OLut5cHc=
+			zs21CJgdRWIV6MkUoHSlI923zBQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			CDcH0cAU2bc5T931NJSvE+mt1Lr879Y/ZNl+CCywZ50=
+			T2fXSrnngNeCFJ9ycx7MefCjHCdKg2n60vJgQk+hF+c=
 			</data>
 		</dict>
 		<key>xros-arm64-simulator/SplineRuntime.framework/default.metallib</key>
@@ -1041,11 +1161,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fWin6DAubAkTQ50yGDjp/GAtfFA=
+			6dyFJ7KUsjrRJxiNYjmJJeuurY0=
 			</data>
 			<key>hash2</key>
 			<data>
-			fXSxOejHLhPgE9vVx5TKFGdcAe7VPEgQuYYIL6FLa2E=
+			BRU2u88f3hbENSeqH0qJUQ5gI90ZFuBqJ3qabs/PxdQ=
 			</data>
 		</dict>
 		<key>xros-arm64/SplineRuntime.framework/Modules/SplineRuntime.swiftmodule/arm64-apple-xros.abi.json</key>
@@ -1118,22 +1238,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Nzf5YuzZTSuFNeeo68gLV9A2Zs=
+			7tyjnzZWDDsh0eudLTWMTQGgv50=
 			</data>
 			<key>hash2</key>
 			<data>
-			431gv1zKCiKDhQQlhxB3ntEnHC1DQjHEIewInTUVW+8=
+			7nknRYIXAXwnpZJ3FRMYVGcr5W9DDfU3N9BsrvUlWiY=
 			</data>
 		</dict>
 		<key>xros-arm64/SplineRuntime.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xnuHFRM2Yz12VdNYJrmQF1BmErA=
+			LOdHkO827cJ+Sy2Zckx3Zz0bRgc=
 			</data>
 			<key>hash2</key>
 			<data>
-			5Wok+m9QZ1pmSSVXpsQb5J5gSKoCpBDBMf6NwOhmaa0=
+			iXnD+V5Tx/FSgz4qY9sH4bZ7a3vz7BA98HTj5O0HfVI=
 			</data>
 		</dict>
 		<key>xros-arm64/SplineRuntime.framework/default.metallib</key>
