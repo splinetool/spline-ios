@@ -29,6 +29,9 @@ jobs:
           repository: ${{ github.event.client_payload.source_repo }}
           run-id: ${{ github.event.client_payload.run_id }}
 
+      - name: Remove old SplineRuntime.xcframework
+        run: rm -rf SplineRuntime.xcframework
+
       - name: Unzip SplineRuntime.xcframework
         run: unzip -o SplineRuntime_${{ github.event.client_payload.version }}.zip
 
