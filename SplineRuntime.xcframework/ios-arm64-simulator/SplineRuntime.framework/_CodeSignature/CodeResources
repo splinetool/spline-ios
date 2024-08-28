@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0GoBp0CIIc4TpWXWVLIWlMKsSs4=
+		6ot5crX1NCgWv/dhT+RQvD3WbNQ=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5ERKo+G2Tmp+ufENgjwLZv3VCoQ=
+		/0Rj1Q2FbN4N54+8qsUMQHEk4l8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nip93EiMUq/7ipz2QC7Z7M9hQKoFlVFEUtr65U7VZwo=
+			rqsFnTiUq29z1Irz4qNQvsGVPSrscFCc2KJ+J+/eRx4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
