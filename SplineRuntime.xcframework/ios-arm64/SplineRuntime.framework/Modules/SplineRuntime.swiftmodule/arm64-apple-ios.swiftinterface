@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -cxx-interoperability-mode=default -enable-library-evolution -swift-version 5 -enforce-exclusivity=unchecked -O -module-name SplineRuntime
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=unchecked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SplineRuntime
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AVFoundation
 import Combine
 import CoreGraphics
@@ -20,27 +20,8 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import simd
-@_hasMissingDesignatedInitializers final public class DisplayLink : Combine.Publisher {
-  public typealias Output = SplineRuntime.DisplayLink.Frame
-  public typealias Failure = Swift.Never
-  final public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == Swift.Never, S.Input == SplineRuntime.DisplayLink.Frame
-  @objc deinit
-}
-extension SplineRuntime.DisplayLink {
-  public struct Frame {
-    public var timestamp: Foundation.TimeInterval
-    public var duration: Foundation.TimeInterval
-  }
-}
-extension SplineRuntime.DisplayLink {
-  @available(iOS 13.0, tvOS 13.0, macOS 10.15, *)
-  convenience public init()
-}
-extension SplineRuntime.DisplayLink {
-  public static let shared: SplineRuntime.DisplayLink
-}
-public struct SplineContent : SwiftUI.View {
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct SplineContent : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13SplineRuntime0A7ContentV4bodyQrvp", 0) __
@@ -57,11 +38,12 @@ public enum SplineViewPhase {
   }
 }
 @available(iOS 16.0, macCatalyst 16.0, macOS 13.0, *)
-public struct SplineView<Content> : SwiftUI.View where Content : SwiftUI.View {
-  public init(sceneFileURL: Foundation.URL?, @SwiftUI.ViewBuilder content: @escaping (SplineRuntime.SplineViewPhase) -> Content = { $0.content })
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+@_Concurrency.MainActor @preconcurrency public struct SplineView<Content> : SwiftUICore.View where Content : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(sceneFileURL: Foundation.URL?, @SwiftUICore.ViewBuilder content: @escaping (SplineRuntime.SplineViewPhase) -> Content = { $0.content })
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
+  @available(iOS 16.0, macOS 13.0, macCatalyst 16.0, *)
   public typealias Body = @_opaqueReturnTypeOf("$s13SplineRuntime0A4ViewV4bodyQrvp", 0) __<Content>
 }
 public enum SplineViewError : Foundation.LocalizedError {
@@ -79,5 +61,8 @@ public enum SplineViewError : Foundation.LocalizedError {
     get
   }
 }
+extension SplineRuntime.SplineContent : Swift.Sendable {}
+@available(iOS 16.0, macCatalyst 16.0, macOS 13.0, *)
+extension SplineRuntime.SplineView : Swift.Sendable {}
 extension SplineRuntime.SplineViewError : Swift.Equatable {}
 extension SplineRuntime.SplineViewError : Swift.Hashable {}
