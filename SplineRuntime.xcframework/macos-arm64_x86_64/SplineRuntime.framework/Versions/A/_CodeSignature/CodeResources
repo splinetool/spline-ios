@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		kptPo0yrb7vJqY1x+/mvjQAKPPI=
+		e2oYtUHIrkgQpdpK5X1wIDDP5i0=
 		</data>
 		<key>Resources/default.metallib</key>
 		<data>
@@ -23,7 +23,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cg0/bUVGMWHspcX8cW/KfDj9oOtVJx8/KAmSpSBwjF4=
+			PhWRLHVFrj0FqoWyiUgQfK1XSmwymigTE+5LScC4//c=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-macos.abi.json</key>
@@ -37,28 +37,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tqJJVdv7Dk5XWNSTEcnE0FcnWC3it85NePDkbiG4ef4=
+			1OvpraH5TWQeZGjfBdkHX0GC/B5fr+mlQx/bHHkcI4s=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C0VhKVy/tMYuvpdylgSRR22vDKQwv0fvC7L6OO/Lf5o=
+			JL7Co86XSMBD3n/oQV/y8zudW+BEYD8KZ6qEE2f9Lf0=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tqJJVdv7Dk5XWNSTEcnE0FcnWC3it85NePDkbiG4ef4=
+			1OvpraH5TWQeZGjfBdkHX0GC/B5fr+mlQx/bHHkcI4s=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3gt2IhmLoFNd1BfpEUCvhc12oczOeR4LQ9UDy21ay68=
+			Qfpzd2s3qhdV6UntLSmo6eTFDUQ04Yz1om7uZghGWAw=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.abi.json</key>
@@ -72,28 +72,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZkCZgCcX8khjXhrWaMw67VNgh1AxsnO7hmfC6543QUo=
+			xpVkbLWmkBb/ykgTQ6dL8DzuMBA2xv7+uEgFz29B1ME=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7GDsuttaQ8yzFG8H6q0ynDN+HwWRV1VK03xavkBcwqg=
+			3zoSRpsXZ2pggIBoS2XVHj3bqvpXQq9ajtkfn1J89r4=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZkCZgCcX8khjXhrWaMw67VNgh1AxsnO7hmfC6543QUo=
+			xpVkbLWmkBb/ykgTQ6dL8DzuMBA2xv7+uEgFz29B1ME=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0pWa57rcRjFt/PVIK5MGGo0FZFFAL0VBQu/27KGyEuU=
+			FuY34zbbbZ+T4zAuAB+vG+j5oDuzyKSeRv241UCwZIc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fN+m7gsZ5dil2AnKS4mUYHz+Fo+YXR2T8Wo+nYRuJyM=
+			OmPo7aY4a/dA/Yjz88jmlGjkRICqmqrWD88rKzvMxLQ=
 			</data>
 		</dict>
 		<key>Resources/default.metallib</key>

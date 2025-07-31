@@ -51,7 +51,7 @@ public enum SplineViewPhase {
 }
 @available(iOS 16.0, macCatalyst 16.0, macOS 13.0, *)
 @_Concurrency.MainActor @preconcurrency public struct SplineView<Content> : SwiftUICore.View where Content : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(sceneFileURL: Foundation.URL?, @SwiftUICore.ViewBuilder content: @escaping (SplineRuntime.SplineViewPhase) -> Content = { $0.content })
+  @_Concurrency.MainActor @preconcurrency public init(sceneFileURL: Foundation.URL?, controller: SplineRuntime.SplineController? = nil, @SwiftUICore.ViewBuilder content: @escaping (SplineRuntime.SplineViewPhase) -> Content = { $0.content })
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -73,6 +73,74 @@ public enum SplineViewError : Foundation.LocalizedError {
     get
   }
 }
+public enum SplineEventName {
+  case mouseUp
+  case mouseDown
+  case mousePress
+  case mouseHover
+  case keyUp
+  case keyDown
+  case keyPress
+  case start
+  case lookAt
+  case follow
+  public static func == (a: SplineRuntime.SplineEventName, b: SplineRuntime.SplineEventName) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class SplineObject {
+  public var name: Swift.String {
+    get
+    set
+  }
+  public var uuid: Swift.String {
+    get
+  }
+  public var position: Swift.SIMD3<Swift.Float> {
+    get
+    set
+  }
+  public var rotation: Swift.SIMD3<Swift.Float> {
+    get
+    set
+  }
+  public var scale: Swift.SIMD3<Swift.Float> {
+    get
+    set
+  }
+  public var visible: Swift.Bool {
+    get
+    set
+  }
+  public var intensity: Swift.Float {
+    get
+    set
+  }
+  public func emitEvent(_ event: SplineRuntime.SplineEventName)
+  public func emitEventReverse(_ event: SplineRuntime.SplineEventName)
+  @objc deinit
+}
+public class SplineController {
+  public init()
+  public func setZoom(_ zoom: Swift.Float)
+  public func setBackgroundColor(_ color: Swift.SIMD4<Swift.Float>)
+  public func play()
+  public func stop()
+  public func findObject(id: Swift.String) -> SplineRuntime.SplineObject?
+  public func findObject(name: Swift.String) -> SplineRuntime.SplineObject?
+  public func emitEvent(_ event: SplineRuntime.SplineEventName, nameOrUUID: Swift.String)
+  public func emitEventReverse(_ event: SplineRuntime.SplineEventName, nameOrUUID: Swift.String)
+  public func addEventListener(_ event: SplineRuntime.SplineEventName, callback: @escaping (SplineRuntime.SplineObject) -> Swift.Void)
+  public func setNumberVariable(name: Swift.String, value: Swift.Float)
+  public func getNumberVariable(name: Swift.String) -> Swift.Float?
+  public func setBoolVariable(name: Swift.String, value: Swift.Bool)
+  public func getBoolVariable(name: Swift.String) -> Swift.Bool?
+  public func setStringVariable(name: Swift.String, value: Swift.String)
+  public func getStringVariable(name: Swift.String) -> Swift.String?
+  @objc deinit
+}
 @_Concurrency.MainActor @preconcurrency public struct SplineImmersiveSpaceContent : SwiftUI.ImmersiveSpaceContent {
   @_Concurrency.MainActor @preconcurrency public init(sceneFileURL: Foundation.URL)
   @_Concurrency.MainActor @preconcurrency public var body: _CompositorServices_SwiftUI.CompositorLayer {
@@ -86,4 +154,6 @@ extension SplineRuntime.SplineContent : Swift.Sendable {}
 extension SplineRuntime.SplineView : Swift.Sendable {}
 extension SplineRuntime.SplineViewError : Swift.Equatable {}
 extension SplineRuntime.SplineViewError : Swift.Hashable {}
+extension SplineRuntime.SplineEventName : Swift.Equatable {}
+extension SplineRuntime.SplineEventName : Swift.Hashable {}
 extension SplineRuntime.SplineImmersiveSpaceContent : Swift.Sendable {}
