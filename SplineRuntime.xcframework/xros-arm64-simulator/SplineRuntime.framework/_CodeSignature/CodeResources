@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<data>
-		WnoYUUjvjntONB8OC/ypAozhYCE=
+		4SEQFbJJaH2ak6Fa8tJELYg57DE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G4G0cPZgyLaScSBK/JEBgBs06og=
+		W/8iNCbMB3ewodvjJXUXG/yDdlY=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		Ataj6S/X1qqGzaVnaijqHCtrZlY=
+		OqKsUurJK7iaLbivD62PjCm7RTw=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<data>
-		K5JE2r+P1FIu80MaPHNO9a5E2rk=
+		3i01WmCDPYifKF9zVm8jQQFOo4k=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		Ataj6S/X1qqGzaVnaijqHCtrZlY=
+		OqKsUurJK7iaLbivD62PjCm7RTw=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		mYCLaWfLSGFkJZQMOKVlr3aJauI=
+		Y3z1fMvu+UTbWXtaV97kAv+a8JY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mfum5nBwL4vaj0RK20pYfGFDFx/2JELS5TbJi8VH8sA=
+			FZbe1vxjCD0/6ZsRJ9RWBR/9QyMa3fg4nePuRyb4yEA=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
@@ -76,28 +76,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IGOHUDlZiYZRMHEK9yUhU1eTlkkfkJy6GT2iyShSv7o=
+			5+wBuHFvydp2rzb1TTfrNH2ds9rZ8K9yfntFkc6Rv60=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ufCVLMe5UrSUPM/o0PvaMXHA0fIIUFLA7Nh09GHS91g=
+			pSS85FSt7M6+GEZe0CInhY97KQyXA44Tssnbg6ef38c=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IGOHUDlZiYZRMHEK9yUhU1eTlkkfkJy6GT2iyShSv7o=
+			5+wBuHFvydp2rzb1TTfrNH2ds9rZ8K9yfntFkc6Rv60=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PkpPMlnq0iQcb8dyoAq9mOcmUA4s5r+fT8DP0AKicHY=
+			YH5P8P5itFDm0JE/31FHbT5ZXaeOQwZ2ufs+nnSrWoI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

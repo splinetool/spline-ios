@@ -4186,6 +4186,8 @@ static SWIFT_C_INLINE_THUNK struct swift_interop_passStub_SplineRuntime_uint64_t
 
 SWIFT_EXTERN struct swift_interop_returnStub_SplineRuntime_uint64_t_0_8 $s13SplineRuntime0A10ControllerC10findObject2idAA0aE0CSgSS_tF(struct swift_interop_passStub_SplineRuntime_uint64_t_0_8_void_ptr_8_16 id, SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // findObject(id:)
 SWIFT_EXTERN struct swift_interop_returnStub_SplineRuntime_uint64_t_0_8 $s13SplineRuntime0A10ControllerC10findObject2idAA0aE0CSgSS_tFTj(struct swift_interop_passStub_SplineRuntime_uint64_t_0_8_void_ptr_8_16 id, SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // dispatch thunk for findObject(id:)
+SWIFT_EXTERN struct swift_interop_returnStub_SplineRuntime_uint64_t_0_8 $s13SplineRuntime0A10ControllerC10allObjectsSayAA0A6ObjectCGSgvg(SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // _
+SWIFT_EXTERN struct swift_interop_returnStub_SplineRuntime_uint64_t_0_8 $s13SplineRuntime0A10ControllerC10allObjectsSayAA0A6ObjectCGSgvgTj(SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // dispatch thunk for _
 SWIFT_EXTERN void $s13SplineRuntime0A10ControllerC9emitEvent_10nameOrUUIDyAA0aE4NameO_SStF(const void * _Nonnull event, struct swift_interop_passStub_SplineRuntime_uint64_t_0_8_void_ptr_8_16 nameOrUUID, SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // emitEvent(_:nameOrUUID:)
 SWIFT_EXTERN void $s13SplineRuntime0A10ControllerC9emitEvent_10nameOrUUIDyAA0aE4NameO_SStFTj(const void * _Nonnull event, struct swift_interop_passStub_SplineRuntime_uint64_t_0_8_void_ptr_8_16 nameOrUUID, SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // dispatch thunk for emitEvent(_:nameOrUUID:)
 SWIFT_EXTERN void $s13SplineRuntime0A10ControllerC16emitEventReverse_10nameOrUUIDyAA0aE4NameO_SStF(const void * _Nonnull event, struct swift_interop_passStub_SplineRuntime_uint64_t_0_8_void_ptr_8_16 nameOrUUID, SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // emitEventReverse(_:nameOrUUID:)
@@ -4234,6 +4236,8 @@ static SWIFT_C_INLINE_THUNK void swift_interop_returnDirect_SplineRuntime_uint64
   memcpy(result + 8, &value._2, 8);
 }
 
+SWIFT_EXTERN struct swift_interop_returnStub_SplineRuntime_uint64_t_0_8_void_ptr_8_16 $s13SplineRuntime0A6ObjectC11descriptionSSvg(SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // _
+SWIFT_EXTERN struct swift_interop_returnStub_SplineRuntime_uint64_t_0_8_void_ptr_8_16 $s13SplineRuntime0A6ObjectC11descriptionSSvgTj(SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // dispatch thunk for _
 SWIFT_EXTERN struct swift_interop_returnStub_SplineRuntime_uint64_t_0_8_void_ptr_8_16 $s13SplineRuntime0A6ObjectC4nameSSvg(SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // _
 SWIFT_EXTERN struct swift_interop_returnStub_SplineRuntime_uint64_t_0_8_void_ptr_8_16 $s13SplineRuntime0A6ObjectC4nameSSvgTj(SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // dispatch thunk for _
 SWIFT_EXTERN void $s13SplineRuntime0A6ObjectC4nameSSvs(struct swift_interop_passStub_SplineRuntime_uint64_t_0_8_void_ptr_8_16 newValue, SWIFT_CONTEXT void * _Nonnull _self) SWIFT_NOEXCEPT SWIFT_CALL; // _
@@ -4321,6 +4325,7 @@ public:
   SWIFT_INLINE_THUNK void stop() SWIFT_SYMBOL("s:13SplineRuntime0A10ControllerC4stopyyF");
 /// Searches through scene’s children and returns the object with that uuid.
   SWIFT_INLINE_THUNK swift::Optional<SplineObject> findObject(const swift::String& id) SWIFT_SYMBOL("s:13SplineRuntime0A10ControllerC10findObject2idAA0aE0CSgSS_tF");
+  SWIFT_INLINE_THUNK swift::Optional<swift::Array<SplineObject>> getAllObjects() SWIFT_SYMBOL("s:13SplineRuntime0A10ControllerC10allObjectsSayAA0A6ObjectCGSgvp");
 /// Triggers a Spline event associated to an object with provided name or uuid.
 /// Starts from first state to last state.
   SWIFT_INLINE_THUNK void emitEvent(const SplineEventName& event, const swift::String& nameOrUUID) SWIFT_SYMBOL("s:13SplineRuntime0A10ControllerC9emitEvent_10nameOrUUIDyAA0aE4NameO_SStF");
@@ -4690,6 +4695,7 @@ class SWIFT_SYMBOL("s:13SplineRuntime0A6ObjectC") SplineObject : public swift::_
 public:
   using RefCountedClass::RefCountedClass;
   using RefCountedClass::operator=;
+  SWIFT_INLINE_THUNK swift::String getDescription() SWIFT_SYMBOL("s:13SplineRuntime0A6ObjectC11descriptionSSvp");
   SWIFT_INLINE_THUNK swift::String getName() SWIFT_SYMBOL("s:13SplineRuntime0A6ObjectC4nameSSvp");
   SWIFT_INLINE_THUNK void setName(const swift::String& newValue) SWIFT_SYMBOL("s:13SplineRuntime0A6ObjectC4nameSSvp");
   SWIFT_INLINE_THUNK swift::String getUuid() SWIFT_SYMBOL("s:13SplineRuntime0A6ObjectC4uuidSSvp");
@@ -5014,6 +5020,11 @@ namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") 
     SplineRuntime::_impl::swift_interop_returnDirect_SplineRuntime_uint64_t_0_8(result, SplineRuntime::_impl::$s13SplineRuntime0A10ControllerC10findObject2idAA0aE0CSgSS_tFTj(SplineRuntime::_impl::swift_interop_passDirect_SplineRuntime_uint64_t_0_8_void_ptr_8_16(swift::_impl::_impl_String::getOpaquePointer(id)), ::swift::_impl::_impl_RefCountedClass::getOpaquePointer(*this)));
   });
   }
+  SWIFT_INLINE_THUNK swift::Optional<swift::Array<SplineObject>> SplineController::getAllObjects() {
+  return swift::_impl::_impl_Optional<swift::Array<SplineObject>>::returnNewValue([&](char * _Nonnull result) SWIFT_INLINE_THUNK_ATTRIBUTES {
+    SplineRuntime::_impl::swift_interop_returnDirect_SplineRuntime_uint64_t_0_8(result, SplineRuntime::_impl::$s13SplineRuntime0A10ControllerC10allObjectsSayAA0A6ObjectCGSgvgTj(::swift::_impl::_impl_RefCountedClass::getOpaquePointer(*this)));
+  });
+  }
   SWIFT_INLINE_THUNK void SplineController::emitEvent(const SplineEventName& event, const swift::String& nameOrUUID) {
   SplineRuntime::_impl::$s13SplineRuntime0A10ControllerC9emitEvent_10nameOrUUIDyAA0aE4NameO_SStFTj(SplineRuntime::_impl::_impl_SplineEventName::getOpaquePointer(event), SplineRuntime::_impl::swift_interop_passDirect_SplineRuntime_uint64_t_0_8_void_ptr_8_16(swift::_impl::_impl_String::getOpaquePointer(nameOrUUID)), ::swift::_impl::_impl_RefCountedClass::getOpaquePointer(*this));
   }
@@ -5129,6 +5140,11 @@ namespace SplineRuntime SWIFT_PRIVATE_ATTR SWIFT_SYMBOL_MODULE("SplineRuntime") 
   }
   SWIFT_INLINE_THUNK swift::Int SplineEventName::getHashValue() const {
   return SplineRuntime::_impl::$s13SplineRuntime0A9EventNameO9hashValueSivg(_getOpaquePointer());
+  }
+  SWIFT_INLINE_THUNK swift::String SplineObject::getDescription() {
+  return swift::_impl::_impl_String::returnNewValue([&](char * _Nonnull result) SWIFT_INLINE_THUNK_ATTRIBUTES {
+    SplineRuntime::_impl::swift_interop_returnDirect_SplineRuntime_uint64_t_0_8_void_ptr_8_16(result, SplineRuntime::_impl::$s13SplineRuntime0A6ObjectC11descriptionSSvgTj(::swift::_impl::_impl_RefCountedClass::getOpaquePointer(*this)));
+  });
   }
   SWIFT_INLINE_THUNK swift::String SplineObject::getName() {
   return swift::_impl::_impl_String::returnNewValue([&](char * _Nonnull result) SWIFT_INLINE_THUNK_ATTRIBUTES {

@@ -79,7 +79,10 @@ public enum SplineEventName {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class SplineObject {
+@_hasMissingDesignatedInitializers public class SplineObject : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
   public var name: Swift.String {
     get
     set
@@ -107,6 +110,10 @@ public enum SplineEventName {
     get
     set
   }
+  public var color: Swift.SIMD3<Swift.Float> {
+    get
+    set
+  }
   public func emitEvent(_ event: SplineRuntime.SplineEventName)
   public func emitEventReverse(_ event: SplineRuntime.SplineEventName)
   @objc deinit
@@ -119,8 +126,14 @@ public class SplineController {
   public func stop()
   public func findObject(id: Swift.String) -> SplineRuntime.SplineObject?
   public func findObject(name: Swift.String) -> SplineRuntime.SplineObject?
+  public var allObjects: [SplineRuntime.SplineObject]? {
+    get
+  }
   public func emitEvent(_ event: SplineRuntime.SplineEventName, nameOrUUID: Swift.String)
   public func emitEventReverse(_ event: SplineRuntime.SplineEventName, nameOrUUID: Swift.String)
+  public var allEvents: [(SplineRuntime.SplineEventName, SplineRuntime.SplineObject)]? {
+    get
+  }
   public func addEventListener(_ event: SplineRuntime.SplineEventName, callback: @escaping (SplineRuntime.SplineObject) -> Swift.Void)
   public func setNumberVariable(name: Swift.String, value: Swift.Float)
   public func getNumberVariable(name: Swift.String) -> Swift.Float?

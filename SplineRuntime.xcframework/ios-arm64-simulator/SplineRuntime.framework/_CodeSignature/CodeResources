@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SplineRuntime-Swift.h</key>
 		<data>
-		D6Jll1dJOTPkS1TFjsrIoTkA744=
+		NiH1p2GKjVkTJuX1zk1wpy1DuHE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0p3miEkQVWpOPwP4944VXbwFnaQ=
+		N8mcGWYYPFS8zU4PS9UQCaTUYbg=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ETD/ygNQ7sgsUcs2hMGdu2QukVs=
+		VHBMh+vc6wVbEuc3cEqH7CL89DI=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		k2Jes6+RIW2Oh3BJ5s9auuUAxxY=
+		6iD5SduokV3cXQjPQ0Rm3xTNgC8=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ETD/ygNQ7sgsUcs2hMGdu2QukVs=
+		VHBMh+vc6wVbEuc3cEqH7CL89DI=
 		</data>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WvsNXQRiYITAcCUR5Jma9sVlwMk=
+		7+xAJR4icWhcOr/nSS/JAhG8PoM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GJjJ3noIIlizAU0WZSkeWgnygFAfE+vle3F7qzqVaG0=
+			HxgnyOUKD5HDiMTy1y5P2s0xnoGVUzAFGehu0Oya+4s=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -76,28 +76,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Wd0iwQ9pYU6ZuXqRv3DgBKnORUZ13voxn+ghXWuM4I=
+			0jxSDIZQ186cZ5ivK7ytO3SjgHjCNLL4oa2UYReU9eA=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zXXA5+xPjmXIVqGQOLnPwomaWIPfGleoIiVwIejHTIA=
+			FS/Itw/vUSIbdgjII9nSeXaqQs2N6E4ffnl6Jh6SXN4=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0Wd0iwQ9pYU6ZuXqRv3DgBKnORUZ13voxn+ghXWuM4I=
+			0jxSDIZQ186cZ5ivK7ytO3SjgHjCNLL4oa2UYReU9eA=
 			</data>
 		</dict>
 		<key>Modules/SplineRuntime.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TEBe7OgL1owNLmRabtxUh6ejuzNuG0eIZRaB7Rnu9oE=
+			1XN+7uw1S3jOj5VbvtsanCWP16QL61WIKQxDCjMwKrc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
