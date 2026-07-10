@@ -19,12 +19,12 @@ jobs:
             ["spline-ios", "spell"]
 
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ steps.generate-token.outputs.token }}
 
       - name: Download the zip
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           github-token: ${{ steps.generate-token.outputs.token }}
           name: SplineRuntime_${{ github.event.client_payload.version }}
