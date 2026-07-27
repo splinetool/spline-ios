@@ -8,6 +8,9 @@ jobs:
   publish:
     name: Publish
     runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ github.event.client_payload.version }}
+      SOURCE_REPO: ${{ github.event.client_payload.source_repo }}
     steps:
       - name: Generate token from spline-bot
         id: generate-token
@@ -24,21 +27,22 @@ jobs:
           token: ${{ steps.generate-token.outputs.token }}
 
       - name: Download the zip
-        uses: actions/download-artifact@v8
-        with:
-          github-token: ${{ steps.generate-token.outputs.token }}
-          name: SplineRuntime_${{ github.event.client_payload.version }}
-          repository: ${{ github.event.client_payload.source_repo }}
-          run-id: ${{ github.event.client_payload.run_id }}
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+        run: |
+          gh release download "$VERSION" \
+            --repo "$SOURCE_REPO" \
+            --pattern "SplineRuntime_$VERSION.zip" \
+            --clobber
 
       - name: Remove old SplineRuntime.xcframework
         run: rm -rf SplineRuntime.xcframework
 
       - name: Unzip SplineRuntime.xcframework
-        run: unzip -o SplineRuntime_${{ github.event.client_payload.version }}.zip
+        run: unzip -o "SplineRuntime_$VERSION.zip"
 
       - name: Delete the zip
-        run: rm SplineRuntime_${{ github.event.client_payload.version }}.zip
+        run: rm "SplineRuntime_$VERSION.zip"
 
       - name: Push the changes
         run: |
@@ -47,7 +51,7 @@ jobs:
 
           if [[ `git status --porcelain` ]]; then
             git add -A
-            git commit -m "Release ${{ github.event.client_payload.version }}"
+            git commit -m "Release $VERSION"
             git push
           else
             echo "No local changes detected."
