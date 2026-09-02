@@ -3,11 +3,13 @@
 // swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=unchecked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SplineRuntime
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AVFoundation
+import Accelerate
 import Combine
 import CoreGraphics
 import CoreText
 import DeveloperToolsSupport
 import Foundation
+import ImageIO
 import Metal
 import MetalKit
 import Network
