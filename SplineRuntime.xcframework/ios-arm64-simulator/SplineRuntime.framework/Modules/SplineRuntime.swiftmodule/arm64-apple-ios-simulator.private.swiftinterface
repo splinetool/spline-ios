@@ -5,8 +5,10 @@
 import AVFoundation
 import Accelerate
 import Combine
+import Compression
 import CoreGraphics
 import CoreText
+import CryptoKit
 import DeveloperToolsSupport
 import Foundation
 import ImageIO

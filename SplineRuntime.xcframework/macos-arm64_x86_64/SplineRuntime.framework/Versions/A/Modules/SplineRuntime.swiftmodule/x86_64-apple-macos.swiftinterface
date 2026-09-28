@@ -6,9 +6,11 @@ import AVFoundation
 import Accelerate
 import AppKit
 import Combine
+import Compression
 import CoreGraphics
 import CoreText
 import CoreVideo
+import CryptoKit
 import DeveloperToolsSupport
 import Foundation
 import ImageIO
