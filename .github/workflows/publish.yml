@@ -19,7 +19,7 @@ jobs:
           app_id: ${{ secrets.SPLINE_BOT_APP_ID }}
           private_key: ${{ secrets.SPLINE_BOT_APP_KEY }}
           repositories: >-
-            ["spline-ios", "spell"]
+            ["spline-ios", "spell-rs"]
 
       - name: Checkout repo
         uses: actions/checkout@v7
