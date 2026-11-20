@@ -118,20 +118,10 @@ final public class SplineController {
   @objc deinit
 }
 public typealias SplinePlatformView = UIKit.UIView
-public enum SplineLoadError : Foundation.LocalizedError {
-  case resourceNotFound(name: Swift.String)
-  case network(any Swift.Error)
-  case badResponse(statusCode: Swift.Int)
-  case emptyResponse
-  case engineCreationFailed
-  public var errorDescription: Swift.String? {
-    get
-  }
-}
 @objc @_inheritsConvenienceInitializers @available(iOS 16.0, macOS 13.0, *)
 @_Concurrency.MainActor @preconcurrency final public class SplineNativeView : SplineRuntime.SplinePlatformView {
   @_Concurrency.MainActor @preconcurrency final public var onComplete: (() -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency final public var onError: ((SplineRuntime.SplineLoadError) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency final public var onError: ((SplineRuntime.SplineViewError) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var controller: SplineRuntime.SplineController? {
     get
     set
@@ -139,9 +129,9 @@ public enum SplineLoadError : Foundation.LocalizedError {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
-  @_Concurrency.MainActor @preconcurrency final public func load(data: Foundation.Data, onComplete: (() -> Swift.Void)? = nil, onError: ((SplineRuntime.SplineLoadError) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency final public func load(url: Foundation.URL, onComplete: (() -> Swift.Void)? = nil, onError: ((SplineRuntime.SplineLoadError) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor @preconcurrency final public func load(resource name: Swift.String, withExtension ext: Swift.String = "splinecontent", bundle: Foundation.Bundle = .main, onComplete: (() -> Swift.Void)? = nil, onError: ((SplineRuntime.SplineLoadError) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency final public func load(data: Foundation.Data, onComplete: (() -> Swift.Void)? = nil, onError: ((SplineRuntime.SplineViewError) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency final public func load(url: Foundation.URL, onComplete: (() -> Swift.Void)? = nil, onError: ((SplineRuntime.SplineViewError) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency final public func load(resource name: Swift.String, withExtension ext: Swift.String = "splinecontent", bundle: Foundation.Bundle = .main, onComplete: (() -> Swift.Void)? = nil, onError: ((SplineRuntime.SplineViewError) -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency @objc override final public class var layerClass: Swift.AnyClass {
     @objc get
   }
@@ -161,17 +151,14 @@ public enum SplineLoadError : Foundation.LocalizedError {
   @_Concurrency.MainActor @preconcurrency @objc override final public func pressesCancelled(_ presses: Swift.Set<UIKit.UIPress>, with event: UIKit.UIPressesEvent?)
 }
 public enum SplineViewError : Foundation.LocalizedError {
+  case resourceNotFound(name: Swift.String)
+  case network(any Swift.Error)
+  case badResponse(statusCode: Swift.Int)
+  case emptyResponse
   case deviceUnsupported
-  case fileUnreachable
-  case fileUnknownFormat
-  case fileOldFormat
-  case fileNewFormat
+  case engineCreationFailed
+  case deviceLost(message: Swift.String)
   public var errorDescription: Swift.String? {
-    get
-  }
-  public static func == (a: SplineRuntime.SplineViewError, b: SplineRuntime.SplineViewError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
     get
   }
 }
@@ -205,7 +192,7 @@ public enum SplineViewPhase {
   public typealias Body = @_opaqueReturnTypeOf("$s13SplineRuntime0A4ViewV4bodyQrvp", 0) __<Content>
 }
 @_Concurrency.MainActor @preconcurrency public struct SplineImmersiveSpaceContent : SwiftUI.ImmersiveSpaceContent {
-  @_Concurrency.MainActor @preconcurrency public init(sceneFileURL: Foundation.URL, controller: SplineRuntime.SplineController? = nil, onLoad: (() -> Swift.Void)? = nil, onError: ((SplineRuntime.SplineLoadError) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(sceneFileURL: Foundation.URL, controller: SplineRuntime.SplineController? = nil, onLoad: (() -> Swift.Void)? = nil, onError: ((SplineRuntime.SplineViewError) -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: _CompositorServices_SwiftUI.CompositorLayer {
     get
   }
@@ -213,7 +200,7 @@ public enum SplineViewPhase {
 }
 @available(visionOS 1.0, *)
 @_Concurrency.MainActor public struct SplineVolumetricContent : SwiftUICore.View {
-  @_Concurrency.MainActor public init(sceneFileURL: Foundation.URL?, controller: SplineRuntime.SplineController? = nil, onLoad: (() -> Swift.Void)? = nil, onError: ((SplineRuntime.SplineLoadError) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor public init(sceneFileURL: Foundation.URL?, controller: SplineRuntime.SplineController? = nil, onLoad: (() -> Swift.Void)? = nil, onError: ((SplineRuntime.SplineViewError) -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -222,8 +209,6 @@ public enum SplineViewPhase {
 }
 extension SplineRuntime.SplineEventName : Swift.Equatable {}
 extension SplineRuntime.SplineEventName : Swift.Hashable {}
-extension SplineRuntime.SplineViewError : Swift.Equatable {}
-extension SplineRuntime.SplineViewError : Swift.Hashable {}
 @available(iOS 16.0, macOS 13.0, *)
 extension SplineRuntime.SplineContent : Swift.Sendable {}
 @available(iOS 16.0, macOS 13.0, *)
