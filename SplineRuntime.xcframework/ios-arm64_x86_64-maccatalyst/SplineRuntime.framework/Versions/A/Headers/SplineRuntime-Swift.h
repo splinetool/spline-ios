@@ -315,11 +315,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// A view that plays a <code>.splinecontent</code> document, and what the SwiftUI <code>SplineView</code> wraps.
 /// Load a scene with <code>load(data:)</code>, <code>load(url:)</code> or <code>load(resource:)</code>; the scene starts once
 /// the view has a window and a non-empty size, so it can be loaded before the view is shown.
-/// <code>onComplete</code> fires on the main thread once frames can be drawn. The view pauses rendering
-/// while the app is inactive or the window is not visible, keeps the scene alive when it
-/// leaves and re-enters a window, and forwards touches, pointer hover, scrolling and
-/// hardware-keyboard input to the scene. Attach a <code>SplineController</code> to drive the scene
-/// (playback, objects, variables, events).
+/// <code>onComplete</code> fires on the main thread once frames can be drawn. The view only draws frames
+/// that change, pauses rendering while the app is inactive or the window is not visible,
+/// keeps the scene alive when it leaves and re-enters a window, and forwards touches, pointer
+/// hover, scrolling and hardware-keyboard input to the scene. Attach a <code>SplineController</code> to
+/// drive the scene (playback, objects, variables, events).
 /// Video layers play their sound through the app’s <code>AVAudioSession</code>, which SplineRuntime never
 /// configures: under the default category (<code>.soloAmbient</code>) the iPhone’s silent switch mutes
 /// them. An app that sets <code>.playback</code> itself makes them audible in silent mode too.
@@ -670,11 +670,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// A view that plays a <code>.splinecontent</code> document, and what the SwiftUI <code>SplineView</code> wraps.
 /// Load a scene with <code>load(data:)</code>, <code>load(url:)</code> or <code>load(resource:)</code>; the scene starts once
 /// the view has a window and a non-empty size, so it can be loaded before the view is shown.
-/// <code>onComplete</code> fires on the main thread once frames can be drawn. The view pauses rendering
-/// while the app is inactive or the window is not visible, keeps the scene alive when it
-/// leaves and re-enters a window, and forwards touches, pointer hover, scrolling and
-/// hardware-keyboard input to the scene. Attach a <code>SplineController</code> to drive the scene
-/// (playback, objects, variables, events).
+/// <code>onComplete</code> fires on the main thread once frames can be drawn. The view only draws frames
+/// that change, pauses rendering while the app is inactive or the window is not visible,
+/// keeps the scene alive when it leaves and re-enters a window, and forwards touches, pointer
+/// hover, scrolling and hardware-keyboard input to the scene. Attach a <code>SplineController</code> to
+/// drive the scene (playback, objects, variables, events).
 /// Video layers play their sound through the app’s <code>AVAudioSession</code>, which SplineRuntime never
 /// configures: under the default category (<code>.soloAmbient</code>) the iPhone’s silent switch mutes
 /// them. An app that sets <code>.playback</code> itself makes them audible in silent mode too.
